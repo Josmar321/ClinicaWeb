@@ -1,0 +1,255 @@
+﻿/* gestion-historial.css - Estilos para la gestión de historial clínico */
+
+/* Variables */
+:root {
+    --color-activo: #198754;
+    --color-inactivo: #6c757d;
+    --color-boton-historial: #0dcaf0;
+}
+
+/* Contenedor principal */
+.historial-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--espaciado-md);
+}
+
+/* Tarjeta principal */
+.historial-card {
+    background-color: var(--color-blanco);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+}
+
+/* Encabezado */
+.historial-header {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+    padding: var(--espaciado-md);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--espaciado-md);
+}
+
+    .historial-header h2 {
+        margin: 0;
+        font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+    }
+
+.historial-buscador {
+    display: flex;
+    min-width: 300px;
+}
+
+    .historial-buscador .form-control {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+.btn-buscar {
+    background-color: var(--color-acento);
+    color: var(--color-blanco);
+    border: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 0 var(--espaciado-md);
+    display: flex;
+    align-items: center;
+    transition: var(--transition);
+}
+
+    .btn-buscar:hover {
+        background-color: var(--color-principal);
+    }
+
+/* Cuerpo */
+.historial-body {
+    padding: var(--espaciado-md);
+}
+
+/* Items de paciente */
+.paciente-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--espaciado-md);
+    border: 1px solid var(--color-borde);
+    border-radius: var(--border-radius);
+    margin-bottom: var(--espaciado-sm);
+    transition: var(--transition);
+}
+
+    .paciente-item:hover {
+        box-shadow: var(--shadow-sm);
+        transform: translateY(-2px);
+    }
+
+.paciente-info {
+    display: flex;
+    align-items: center;
+    gap: var(--espaciado-md);
+}
+
+.paciente-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--color-fondo-claro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-principal);
+    font-size: 1.5rem;
+}
+
+.paciente-datos h3 {
+    margin: 0 0 var(--espaciado-xs) 0;
+    color: var(--color-texto);
+}
+
+.paciente-datos p {
+    margin: 0;
+    color: var(--color-texto-claro);
+}
+
+.paciente-estado {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: var(--espaciado-sm);
+}
+
+/* Badges de estado */
+.badge-estado {
+    padding: 0.4em 0.7em;
+    border-radius: 0.35rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.badge-activo {
+    background-color: var(--color-activo);
+    color: var(--color-blanco);
+}
+
+.badge-inactivo {
+    background-color: var(--color-inactivo);
+    color: var(--color-blanco);
+}
+
+/* Botones */
+.btn-ver-historial {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--color-boton-historial);
+    color: var(--color-blanco);
+    border: none;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    transition: var(--transition);
+    font-size: 0.875rem;
+}
+
+    .btn-ver-historial:hover {
+        background-color: #0aa2c0;
+    }
+
+/* Paginación */
+.historial-paginacion {
+    padding: var(--espaciado-md);
+    border-top: 1px solid var(--color-borde);
+    display: flex;
+    justify-content: center;
+    gap: var(--espaciado-xs);
+}
+
+.pagina-link,
+.pagina-activa {
+    min-width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+}
+
+.pagina-link {
+    border: 1px solid var(--color-borde);
+    background-color: var(--color-blanco);
+    color: var(--color-texto);
+}
+
+    .pagina-link:hover {
+        background-color: var(--color-fondo-claro);
+    }
+
+.pagina-activa {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+    border: 1px solid var(--color-principal);
+}
+
+/* Mensajes */
+.mensaje-error {
+    background-color: #fff1f0;
+    color: var(--color-cancelada);
+    padding: var(--espaciado-sm) var(--espaciado-md);
+    border-radius: var(--border-radius);
+    margin-bottom: var(--espaciado-md);
+    display: flex;
+    align-items: center;
+}
+
+    .mensaje-error i {
+        margin-right: var(--espaciado-sm);
+    }
+
+.mensaje-vacio {
+    text-align: center;
+    padding: var(--espaciado-lg);
+    color: var(--color-texto-claro);
+    background-color: var(--color-fondo-claro);
+    border-radius: var(--border-radius);
+}
+
+    .mensaje-vacio i {
+        margin-bottom: var(--espaciado-sm);
+        color: var(--color-texto-claro);
+    }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .historial-header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .historial-buscador {
+        width: 100%;
+    }
+
+    .paciente-item {
+        flex-direction: column;
+        align-items: stretch;
+        gap: var(--espaciado-md);
+    }
+
+    .paciente-estado {
+        align-items: stretch;
+        margin-top: var(--espaciado-sm);
+    }
+
+    .btn-ver-historial {
+        width: 100%;
+        justify-content: center;
+    }
+}

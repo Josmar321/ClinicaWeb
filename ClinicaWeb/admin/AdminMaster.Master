@@ -1,0 +1,244 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="ClinicaWeb.admin.AdminMaster" %>
+
+<!DOCTYPE html>
+<html lang="es">
+<head runat="server">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+    <link rel="stylesheet" href="../../styles.css" />
+    <link rel="stylesheet" href="../../styles/admin.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="contenedor-admin">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="logo-sidebar">
+                    <i class="fas fa-heartbeat"></i>
+                    <h2>NeoSalud</h2>
+                </div>
+                <nav class="menu-admin">
+                    <ul>
+                        <li class="menu-item" id="menuDashboard">
+                            <asp:LinkButton runat="server" ID="btnDashboard" CssClass="menu-link" OnClick="btnDashboard_Click">
+                                <i class="fas fa-home"></i>
+                                <span>Dashboard</span>
+                            </asp:LinkButton>
+                        </li>
+                        <li class="menu-item" id="menuUsuarios">
+                            <asp:LinkButton runat="server" ID="btnUsuarios" CssClass="menu-link" OnClick="btnUsuarios_Click">
+                                <i class="fas fa-users"></i>
+                                <span>Usuarios</span>
+                            </asp:LinkButton>
+                        </li>
+                        <li class="menu-item" id="menuAdministradores">
+                            <asp:LinkButton runat="server" ID="btnAdministradores" CssClass="menu-link" OnClick="btnAdministradores_Click">
+                                <i class="fas fa-user-shield"></i>
+                                <span>Administradores</span>
+                            </asp:LinkButton>
+                        </li>
+                        <li class="menu-item" id="menuMedicos">
+                            <asp:LinkButton runat="server" ID="btnMedicos" CssClass="menu-link" OnClick="btnMedicos_Click">
+                                <i class="fas fa-user-md"></i>
+                                <span>Médicos</span>
+                            </asp:LinkButton>
+                        </li>
+                        <li class="menu-item" id="menuPacientes">
+                            <asp:LinkButton runat="server" ID="btnPacientes" CssClass="menu-link" OnClick="btnPacientes_Click">
+                                <i class="fas fa-procedures"></i>
+                                <span>Pacientes</span>
+                            </asp:LinkButton>
+                        </li>
+                        <li class="menu-item" id="menuEspecialidades">
+                            <asp:LinkButton runat="server" ID="btnEspecialidades" CssClass="menu-link" OnClick="btnEspecialidades_Click">
+                                <i class="fas fa-stethoscope"></i>
+                                <span>Especialidades</span>
+                            </asp:LinkButton>
+                        </li>
+                        <li class="menu-item" id="menuLocales">
+                            <asp:LinkButton runat="server" ID="btnLocales" CssClass="menu-link" OnClick="btnLocales_Click">
+                                <i class="fas fa-hospital"></i>
+                                <span>Locales</span>
+                            </asp:LinkButton>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+            
+            <!-- Contenido Principal -->
+            <main class="contenido-principal">
+                <header class="header-admin">
+                    <div class="header-left">
+                        <!-- Espacio vacío para mantener el layout -->
+                    </div>
+                    <div class="header-right">
+                        <div class="admin-profile">
+                            <div class="profile-dropdown">
+                                <button type="button" class="profile-button" onclick="toggleProfileDropdown()">
+                                    <div class="profile-avatar">
+                                        <asp:Image ID="imgAdminFoto" runat="server" CssClass="admin-profile-image" />
+                                        <div class="admin-avatar-placeholder" id="adminAvatarPlaceholder">
+                                            <i class="fas fa-user-shield"></i>
+                                        </div>
+                                        <div class="online-indicator"></div>
+                                    </div>
+                                    <div class="profile-info">
+                                        <span class="profile-name"><%: Session["NombreAdmin"] ?? "Admin" %></span>
+                                        <span class="profile-role">Administrador</span>
+                                    </div>
+                                    <i class="fas fa-chevron-down profile-arrow"></i>
+                                </button>
+                                <div id="profileDropdown" class="profile-dropdown-menu">
+                                    <div class="dropdown-divider"></div>
+                                    <asp:LinkButton ID="btnCerrarSesion" runat="server" CssClass="dropdown-item" OnClick="CerrarSesion">
+                                        <i class="fas fa-sign-out-alt"></i>
+                                        <span>Cerrar Sesión</span>
+                                    </asp:LinkButton>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+            </main>
+        </div>
+    </form>
+</body>
+</html>
+
+<script>
+// Función para manejar el dropdown del perfil
+function toggleProfileDropdown() {
+    const dropdown = document.getElementById('profileDropdown');
+    const button = document.querySelector('.profile-button');
+    const arrow = document.querySelector('.profile-arrow');
+    
+    dropdown.classList.toggle('show');
+    button.classList.toggle('active');
+    arrow.classList.toggle('rotate');
+}
+
+// Cerrar dropdown al hacer clic fuera
+document.addEventListener('click', function(event) {
+    const dropdown = document.getElementById('profileDropdown');
+    const button = document.querySelector('.profile-button');
+    
+    if (!button.contains(event.target) && !dropdown.contains(event.target)) {
+        dropdown.classList.remove('show');
+        button.classList.remove('active');
+        document.querySelector('.profile-arrow').classList.remove('rotate');
+    }
+});
+
+// Función para marcar la página activa
+function setActivePage(pageId) {
+    console.log('Setting active page:', pageId);
+    
+    // Remover clase activa de todos los elementos del menú
+    document.querySelectorAll('.menu-item').forEach(item => {
+        item.classList.remove('active');
+    });
+    
+    // Agregar clase activa al elemento correspondiente
+    const activeItem = document.getElementById(pageId);
+    if (activeItem) {
+        activeItem.classList.add('active');
+        console.log('Active item found and class added');
+    } else {
+        console.log('Active item not found for ID:', pageId);
+    }
+}
+
+// Detectar la página actual basada en la URL
+function detectCurrentPage() {
+    const path = window.location.pathname;
+    console.log('Current path:', path);
+    
+    // Extraer solo el nombre del archivo de la URL
+    const fileName = path.split('/').pop();
+    console.log('FileName:', fileName);
+    
+    // Mapeo por nombre de archivo
+    const fileNameMap = {
+        'dashboard.aspx': 'menuDashboard',
+        'usuarios.aspx': 'menuUsuarios',
+        'personas.aspx': 'menuPersonas',
+        'administradores.aspx': 'menuAdministradores',
+        'medicos.aspx': 'menuMedicos',
+        'especialidades.aspx': 'menuEspecialidades',
+        'locales.aspx': 'menuLocales',
+        'reportes.aspx': 'menuReportes',
+        'configuracion.aspx': 'menuConfiguracion',
+        'RegistroPersona.aspx': 'menuUsuarios',
+        'agregar-usuario.aspx': 'menuUsuarios',
+        'agregar-medico.aspx': 'menuMedicos',
+        'nueva-especialidad.aspx': 'menuEspecialidades',
+        'nuevo-local.aspx': 'menuLocales',
+        'modificar-local.aspx': 'menuLocales',
+        'PerfilMedico.aspx': 'menuMedicos',
+        'admin-perfil.aspx': 'menuConfiguracion'
+    };
+    
+    const pageId = fileNameMap[fileName] || 'menuDashboard';
+    console.log('Detected page ID:', pageId);
+    setActivePage(pageId);
+}
+
+// Ejecutar al cargar la página
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOM loaded, detecting current page...');
+    detectCurrentPage();
+});
+
+// También ejecutar cuando la página se carga completamente
+window.addEventListener('load', function() {
+    console.log('Window loaded, detecting current page...');
+    detectCurrentPage();
+});
+
+// Ejecutar inmediatamente si el DOM ya está cargado
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', detectCurrentPage);
+} else {
+    detectCurrentPage();
+}
+
+// Función para mostrar la foto del administrador
+function mostrarFotoAdmin() {
+    const adminFoto = document.getElementById('<%= imgAdminFoto.ClientID %>');
+    const adminAvatarPlaceholder = document.getElementById('adminAvatarPlaceholder');
+    
+    // Obtener la foto desde el ViewState (se pasará como variable JavaScript)
+    const fotoUrl = '<%= ViewState["FotoAdmin"] %>';
+    
+    if (fotoUrl && fotoUrl !== '') {
+        // Mostrar la foto real
+        adminFoto.src = fotoUrl;
+        adminFoto.style.display = 'block';
+        if (adminAvatarPlaceholder) {
+            adminAvatarPlaceholder.style.display = 'none';
+        }
+    } else {
+        // Mostrar el placeholder
+        adminFoto.style.display = 'none';
+        if (adminAvatarPlaceholder) {
+            adminAvatarPlaceholder.style.display = 'flex';
+        }
+    }
+}
+
+// Ejecutar al cargar la página para mostrar la foto
+document.addEventListener('DOMContentLoaded', function() {
+    mostrarFotoAdmin();
+});
+
+// También ejecutar cuando la página se carga completamente
+window.addEventListener('load', function() {
+    mostrarFotoAdmin();
+});
+</script>
+

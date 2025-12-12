@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Médicos - NeoSalud</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="../../styles/admin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="contenedor-admin">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-sidebar">
+                <i class="fas fa-heartbeat"></i>
+                <h2>NeoSalud</h2>
+            </div>
+            <nav class="menu-admin">
+                <ul>
+                    <li>
+                        <a href="dashboard.html"><i class="fas fa-home"></i> Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="usuarios.html"><i class="fas fa-users"></i> Usuarios</a>
+                    </li>
+                    <li class="activo">
+                        <a href="medicos.html"><i class="fas fa-user-md"></i> Médicos</a>
+                    </li>
+                    <li>
+                        <a href="especialidades.html"><i class="fas fa-stethoscope"></i> Especialidades</a>
+                    </li>
+                    <li>
+                        <a href="locales.html"><i class="fas fa-hospital"></i> Locales</a>
+                    </li>
+                    <li>
+                        <a href="reportes.html"><i class="fas fa-chart-bar"></i> Reportes</a>
+                    </li>
+                    <li>
+                        <a href="configuracion.html"><i class="fas fa-cog"></i> Configuración</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Contenido Principal -->
+        <main class="contenido-principal">
+            <header class="header-admin">
+                <div class="buscador">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Buscar médico...">
+                </div>
+                <div class="perfil-admin">
+                    <span class="notificaciones">
+                        <i class="fas fa-bell"></i>
+                        <span class="badge">3</span>
+                    </span>
+                    <div class="admin-info">
+                        <img src="https://via.placeholder.com/40" alt="Admin">
+                        <span>Admin</span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="pagina-gestion">
+                <!-- Encabezado de la página -->
+                <div class="encabezado-gestion">
+                    <h1>Gestión de Médicos</h1>
+                    <div class="acciones-gestion">
+                        <button class="btn-nuevo">
+                            <i class="fas fa-plus"></i> Nuevo Médico
+                        </button>
+                        <button class="btn-filtro">
+                            <i class="fas fa-filter"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Filtros -->
+                <div class="filtros-gestion">
+                    <div class="busqueda-avanzada">
+                        <div class="grid-filtros">
+                            <div class="form-grupo">
+                                <label>Especialidad</label>
+                                <select>
+                                    <option value="">Todas las especialidades</option>
+                                    <option value="1">Cardiología</option>
+                                    <option value="2">Pediatría</option>
+                                    <option value="3">Dermatología</option>
+                                </select>
+                            </div>
+                            <div class="form-grupo">
+                                <label>Local</label>
+                                <select>
+                                    <option value="">Todos los locales</option>
+                                    <option value="1">Local Central</option>
+                                    <option value="2">Local Norte</option>
+                                    <option value="3">Local Sur</option>
+                                </select>
+                            </div>
+                            <div class="form-grupo">
+                                <label>Estado</label>
+                                <select>
+                                    <option value="">Todos los estados</option>
+                                    <option value="activo">Activo</option>
+                                    <option value="inactivo">Inactivo</option>
+                                    <option value="vacaciones">Vacaciones</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lista de Médicos -->
+                <div class="grid-gestion">
+                    <!-- Tarjeta de Médico -->
+                    <div class="tarjeta-gestion">
+                        <div class="tarjeta-header">
+                            <div class="estado activo">Activo</div>
+                            <div class="acciones-rapidas">
+                                <button class="btn-accion" title="Editar">
+                                    <i class="fas fa-edit"></i>
+                                </button>
+                                <button class="btn-accion" title="Más opciones">
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="tarjeta-contenido">
+                            <div class="medico-info-principal">
+                                <img src="https://via.placeholder.com/100" alt="Dr. García" class="foto-medico">
+                                <div class="info-basica">
+                                    <h3>Dr. Juan García</h3>
+                                    <p class="especialidad">Cardiología</p>
+                                    <div class="calificacion">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <span>(4.5)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="medico-detalles">
+                                <div class="detalle-item">
+                                    <i class="fas fa-hospital"></i>
+                                    <span>Local Central</span>
+                                </div>
+                                <div class="detalle-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span>Lun-Vie: 9:00 - 17:00</span>
+                                </div>
+                                <div class="detalle-item">
+                                    <i class="fas fa-calendar-check"></i>
+                                    <span>15 citas hoy</span>
+                                </div>
+                            </div>
+                            <div class="medico-acciones">
+                                <button class="btn-accion-principal">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    Ver Agenda
+                                </button>
+                                <button class="btn-accion-secundario">
+                                    <i class="fas fa-user-md"></i>
+                                    Ver Perfil
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Más tarjetas de médicos con el mismo formato -->
+                    <!-- Tarjeta de Médico -->
+                    <div class="tarjeta-gestion">
+                        <div class="tarjeta-header">
+                            <div class="estado activo">Activo</div>
+                            <div class="acciones-rapidas">
+                                <button class="btn-accion" title="Editar">
+                                    <i class="fas fa-edit"></i>
+                                </button>
+                                <button class="btn-accion" title="Más opciones">
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="tarjeta-contenido">
+                            <div class="medico-info-principal">
+                                <img src="https://via.placeholder.com/100" alt="Dr. García" class="foto-medico">
+                                <div class="info-basica">
+                                    <h3>Dr. Juan García</h3>
+                                    <p class="especialidad">Cardiología</p>
+                                    <div class="calificacion">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <span>(4.5)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="medico-detalles">
+                                <div class="detalle-item">
+                                    <i class="fas fa-hospital"></i>
+                                    <span>Local Central</span>
+                                </div>
+                                <div class="detalle-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span>Lun-Vie: 9:00 - 17:00</span>
+                                </div>
+                                <div class="detalle-item">
+                                    <i class="fas fa-calendar-check"></i>
+                                    <span>15 citas hoy</span>
+                                </div>
+                            </div>
+                            <div class="medico-acciones">
+                                <button class="btn-accion-principal">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    Ver Agenda
+                                </button>
+                                <button class="btn-accion-secundario">
+                                    <i class="fas fa-user-md"></i>
+                                    Ver Perfil
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta de Médico -->
+                    <div class="tarjeta-gestion">
+                        <div class="tarjeta-header">
+                            <div class="estado activo">Activo</div>
+                            <div class="acciones-rapidas">
+                                <button class="btn-accion" title="Editar">
+                                    <i class="fas fa-edit"></i>
+                                </button>
+                                <button class="btn-accion" title="Más opciones">
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="tarjeta-contenido">
+                            <div class="medico-info-principal">
+                                <img src="https://via.placeholder.com/100" alt="Dr. García" class="foto-medico">
+                                <div class="info-basica">
+                                    <h3>Dr. Juan García</h3>
+                                    <p class="especialidad">Cardiología</p>
+                                    <div class="calificacion">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <span>(4.5)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="medico-detalles">
+                                <div class="detalle-item">
+                                    <i class="fas fa-hospital"></i>
+                                    <span>Local Central</span>
+                                </div>
+                                <div class="detalle-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span>Lun-Vie: 9:00 - 17:00</span>
+                                </div>
+                                <div class="detalle-item">
+                                    <i class="fas fa-calendar-check"></i>
+                                    <span>15 citas hoy</span>
+                                </div>
+                            </div>
+                            <div class="medico-acciones">
+                                <button class="btn-accion-principal">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    Ver Agenda
+                                </button>
+                                <button class="btn-accion-secundario">
+                                    <i class="fas fa-user-md"></i>
+                                    Ver Perfil
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Paginación -->
+                <div class="paginacion">
+                    <button class="btn-pagina">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="btn-pagina activo">1</button>
+                    <button class="btn-pagina">2</button>
+                    <button class="btn-pagina">3</button>
+                    <button class="btn-pagina">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html> 

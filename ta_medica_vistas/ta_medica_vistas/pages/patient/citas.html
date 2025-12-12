@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Citas - NeoSalud</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="../../styles/patient.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="contenedor-paciente">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-sidebar">
+                <i class="fas fa-heartbeat"></i>
+                <h2>NeoSalud</h2>
+            </div>
+            <nav class="menu-paciente">
+                <ul>
+                    <li>
+                        <a href="dashboard.html"><i class="fas fa-home"></i> Inicio</a>
+                    </li>
+                    <li class="activo">
+                        <a href="citas.html"><i class="fas fa-calendar-check"></i> Mis Citas</a>
+                    </li>
+                    <li>
+                        <a href="historial.html"><i class="fas fa-file-medical"></i> Historial Médico</a>
+                    </li>
+                    <li>
+                        <a href="medicos.html"><i class="fas fa-user-md"></i> Mis Médicos</a>
+                    </li>
+                    <li>
+                        <a href="notificaciones.html"><i class="fas fa-bell"></i> Notificaciones</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Contenido Principal -->
+        <main class="contenido-principal">
+            <header class="header-paciente">
+                <div class="perfil-paciente">
+                    <span class="notificaciones">
+                        <i class="fas fa-bell"></i>
+                        <span class="badge">2</span>
+                    </span>
+                    <div class="paciente-info">
+                        <img src="https://via.placeholder.com/40" alt="Paciente">
+                        <span>Juan Pérez</span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="dashboard-contenido">
+                <div class="encabezado-dashboard">
+                    <h1>Mis Citas</h1>
+                    <button class="btn-nueva-cita">
+                        <i class="fas fa-plus"></i>
+                        Nueva Cita
+                    </button>
+                </div>
+
+                <!-- Filtros -->
+                <div class="filtros-citas">
+                    <div class="busqueda-citas">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Buscar por médico o especialidad...">
+                    </div>
+                    <div class="filtros-estado">
+                        <button class="btn-filtro activo">Todas</button>
+                        <button class="btn-filtro">Próximas</button>
+                        <button class="btn-filtro">Completadas</button>
+                        <button class="btn-filtro">Canceladas</button>
+                    </div>
+                </div>
+
+                <!-- Calendario de Citas -->
+                <div class="calendario-citas">
+                    <div class="mes-selector">
+                        <button class="btn-mes"><i class="fas fa-chevron-left"></i></button>
+                        <h2>Marzo 2024</h2>
+                        <button class="btn-mes"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    
+                    <!-- Lista de Citas -->
+                    <div class="lista-citas-detallada">
+                        <!-- Cita Próxima -->
+                        <div class="cita-detallada proxima">
+                            <div class="fecha-cita-grande">
+                                <span class="dia">20</span>
+                                <span class="mes">Mar</span>
+                                <span class="hora">10:30 AM</span>
+                            </div>
+                            <div class="info-cita-detallada">
+                                <h3>Consulta con Dra. Ana García</h3>
+                                <p class="especialidad">Cardiología</p>
+                                <p class="local"><i class="fas fa-hospital"></i> Clínica Central - Consultorio 302</p>
+                                <div class="estado-cita">
+                                    <span class="estado confirmada">Confirmada</span>
+                                    <div class="acciones-cita">
+                                        <button class="btn-cancelar">Cancelar</button>
+                                        <button class="btn-reprogramar">Reprogramar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Citas Pasadas -->
+                        <div class="cita-detallada completada">
+                            <div class="fecha-cita-grande">
+                                <span class="dia">15</span>
+                                <span class="mes">Mar</span>
+                                <span class="hora">09:00 AM</span>
+                            </div>
+                            <div class="info-cita-detallada">
+                                <h3>Control con Dr. Carlos Ruiz</h3>
+                                <p class="especialidad">Traumatología</p>
+                                <p class="local"><i class="fas fa-hospital"></i> Clínica Norte - Consultorio 105</p>
+                                <div class="estado-cita">
+                                    <span class="estado completada">Completada</span>
+                                    <button class="btn-ver-historial">Ver Historial</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cita-detallada cancelada">
+                            <div class="fecha-cita-grande">
+                                <span class="dia">10</span>
+                                <span class="mes">Mar</span>
+                                <span class="hora">11:30 AM</span>
+                            </div>
+                            <div class="info-cita-detallada">
+                                <h3>Consulta con Dra. María López</h3>
+                                <p class="especialidad">Dermatología</p>
+                                <p class="local"><i class="fas fa-hospital"></i> Clínica Sur - Consultorio 208</p>
+                                <div class="estado-cita">
+                                    <span class="estado cancelada">Cancelada</span>
+                                    <button class="btn-reagendar">Reagendar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html> 

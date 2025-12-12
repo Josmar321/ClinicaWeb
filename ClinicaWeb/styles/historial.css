@@ -1,0 +1,371 @@
+﻿/* Tarjeta de historial clínico (detalle de paciente) */
+.tarjeta-historial {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px 0 rgba(31, 35, 41, 0.06);
+    padding: 32px;
+    margin: 2em auto 1em auto;
+    max-width: 700px;
+    min-width: 320px;
+}
+
+.titulo-historial {
+    margin-bottom: 1.6em;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.info-paciente {
+    background: #f6f8fa;
+    border-radius: 8px;
+    padding: 1em 1.5em;
+    margin-bottom: 1.7em;
+    border-left: 4px solid #2563eb;
+}
+
+.obs-generales {
+    background: #e6f0ff;
+    padding: 0.7em 1em;
+    margin: 1em 0 2em 0;
+    border-radius: 7px;
+    color: #20438e;
+    display: flex;
+    align-items: center;
+    gap: 0.7em;
+    border-left: 4px solid #2563eb;
+    font-weight: 500;
+}
+
+.titulo-citas {
+    font-size: 1.2em;
+    margin: 1.5em 0 0.5em 0;
+    border-bottom: 1px solid #c1c7d0;
+    padding-bottom: 0.2em;
+}
+
+.cita-card {
+    border: 1px solid #e0e6eb;
+    border-radius: 10px;
+    margin-bottom: 1.1em;
+    background: #f9fafb;
+    padding: 1em 1.2em;
+}
+
+    .cita-card .fecha-cita {
+        font-weight: bold;
+        font-size: 1.1em;
+        margin-bottom: 0.2em;
+    }
+
+    .cita-card .estado {
+        display: inline-block;
+        background: #2563eb;
+        color: #fff;
+        border-radius: 8px;
+        padding: 2px 12px;
+        margin-left: 1em;
+        font-size: 0.95em;
+    }
+
+.btn-volver {
+    margin-top: 2em;
+    background: #2563eb;
+    color: #fff;
+    border-radius: 7px;
+    padding: 0.5em 2em;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.17s;
+}
+
+    .btn-volver:hover {
+        background: #173ea6;
+    }
+
+.mensaje-error {
+    color: #e11d48;
+    font-size: 1em;
+    margin-bottom: 8px;
+}
+/* Gestión de historial clínico - listado de pacientes */
+.tarjeta-gestion {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px 0 rgba(31, 35, 41, 0.05);
+    padding: 32px 32px 20px 32px;
+    margin: 2em auto;
+    max-width: 1100px;
+    min-width: 330px;
+}
+
+.header-lista {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.buscador-id {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    background: #f6f8fa;
+    border-radius: 8px;
+    padding: 0.7em 1em;
+}
+
+    .buscador-id input[type="text"] {
+        border: 1px solid #d0d7de;
+        border-radius: 6px;
+        padding: 0.3em 0.8em;
+        font-size: 1em;
+        min-width: 150px;
+        background: #fff;
+    }
+
+    .buscador-id button {
+        border: none;
+        border-radius: 5px;
+        background: #2563eb;
+        color: #fff;
+        padding: 0.3em 1.1em;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background 0.2s;
+    }
+
+        .buscador-id button:hover {
+            background: #1d4ed8;
+        }
+
+.paciente-listado {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.card-paciente {
+    border: 1px solid #e0e6eb;
+    border-radius: 12px;
+    padding: 20px 28px;
+    background: #f9fafb;
+    box-shadow: 0 1px 4px 0 rgba(31, 35, 41, 0.03);
+    max-width: 480px;
+    min-width: 270px;
+    margin-bottom: 0.3em;
+}
+
+    .card-paciente h3 {
+        margin: 0.1em 0 0.4em 0;
+    }
+
+.badge-activo, .badge-inactivo {
+    padding: 2px 16px;
+    border-radius: 16px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.badge-activo {
+    background: #22c55e;
+}
+
+.badge-inactivo {
+    background: #e11d48;
+}
+
+.acciones-paciente {
+    margin-top: 1em;
+    display: flex;
+    gap: 0.7em;
+}
+
+.paginacion {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 28px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+
+    .paginacion button, .paginacion span {
+        border: none;
+        background: none;
+        padding: 6px 15px;
+        border-radius: 7px;
+        cursor: pointer;
+        font-size: 1em;
+        color: #1d3557;
+        font-weight: 500;
+        transition: background 0.2s;
+    }
+
+    .paginacion .activo-pagina {
+        background: #2563eb;
+        color: #fff;
+        font-weight: bold;
+    }
+
+@media (max-width: 850px) {
+    .tarjeta-gestion {
+        padding: 15px;
+    }
+
+    .header-lista {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1em;
+    }
+}
+
+@media (max-width: 650px) {
+    .tarjeta-historial {
+        padding: 13px;
+    }
+
+    .info-paciente, .obs-generales {
+        padding: 10px;
+    }
+}
+.tarjeta-gestion {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px 0 rgba(31, 35, 41, 0.05);
+    padding: 32px 32px 20px 32px;
+    margin: 2em auto;
+    max-width: 1100px;
+    min-width: 330px;
+}
+
+.header-lista {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.buscador-id {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    background: #f6f8fa;
+    border-radius: 8px;
+    padding: 0.7em 1em;
+}
+
+    .buscador-id input[type="text"] {
+        border: 1px solid #d0d7de;
+        border-radius: 6px;
+        padding: 0.3em 0.8em;
+        font-size: 1em;
+        min-width: 150px;
+        background: #fff;
+    }
+
+    .buscador-id button {
+        border: none;
+        border-radius: 5px;
+        background: #2563eb;
+        color: #fff;
+        padding: 0.3em 1.1em;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background 0.2s;
+    }
+
+        .buscador-id button:hover {
+            background: #1d4ed8;
+        }
+
+.paciente-listado {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.card-paciente {
+    border: 1px solid #e0e6eb;
+    border-radius: 12px;
+    padding: 20px 28px;
+    background: #f9fafb;
+    box-shadow: 0 1px 4px 0 rgba(31, 35, 41, 0.03);
+    max-width: 480px;
+    min-width: 270px;
+    margin-bottom: 0.3em;
+}
+
+    .card-paciente h3 {
+        margin: 0.1em 0 0.4em 0;
+    }
+
+.badge-activo, .badge-inactivo {
+    padding: 2px 16px;
+    border-radius: 16px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.badge-activo {
+    background: #22c55e;
+}
+
+.badge-inactivo {
+    background: #e11d48;
+}
+
+.acciones-paciente {
+    margin-top: 1em;
+    display: flex;
+    gap: 0.7em;
+}
+
+.paginacion {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 28px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+
+    .paginacion button, .paginacion span {
+        border: none;
+        background: none;
+        padding: 6px 15px;
+        border-radius: 7px;
+        cursor: pointer;
+        font-size: 1em;
+        color: #1d3557;
+        font-weight: 500;
+        transition: background 0.2s;
+    }
+
+    .paginacion .activo-pagina {
+        background: #2563eb;
+        color: #fff;
+        font-weight: bold;
+    }
+
+@media (max-width: 850px) {
+    .tarjeta-gestion {
+        padding: 15px;
+    }
+
+    .header-lista {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1em;
+    }
+}

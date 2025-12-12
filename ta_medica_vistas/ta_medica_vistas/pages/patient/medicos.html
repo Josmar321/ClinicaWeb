@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Médicos - NeoSalud</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="../../styles/patient.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="contenedor-paciente">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-sidebar">
+                <i class="fas fa-heartbeat"></i>
+                <h2>NeoSalud</h2>
+            </div>
+            <nav class="menu-paciente">
+                <ul>
+                    <li>
+                        <a href="dashboard.html"><i class="fas fa-home"></i> Inicio</a>
+                    </li>
+                    <li>
+                        <a href="citas.html"><i class="fas fa-calendar-check"></i> Mis Citas</a>
+                    </li>
+                    <li>
+                        <a href="historial.html"><i class="fas fa-file-medical"></i> Historial Médico</a>
+                    </li>
+                    <li class="activo">
+                        <a href="medicos.html"><i class="fas fa-user-md"></i> Mis Médicos</a>
+                    </li>
+                    <li>
+                        <a href="notificaciones.html"><i class="fas fa-bell"></i> Notificaciones</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Contenido Principal -->
+        <main class="contenido-principal">
+            <header class="header-paciente">
+                <div class="perfil-paciente">
+                    <span class="notificaciones">
+                        <i class="fas fa-bell"></i>
+                        <span class="badge">2</span>
+                    </span>
+                    <div class="paciente-info">
+                        <img src="https://via.placeholder.com/40" alt="Paciente">
+                        <span>Juan Pérez</span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="dashboard-contenido">
+                <div class="encabezado-dashboard">
+                    <h1>Mis Médicos</h1>
+                    <div class="acciones-medicos">
+                        <button class="btn-buscar-medico">
+                            <i class="fas fa-search"></i>
+                            Buscar Médico
+                        </button>
+                        <button class="btn-nueva-cita">
+                            <i class="fas fa-plus"></i>
+                            Nueva Cita
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Filtros -->
+                <div class="filtros-medicos">
+                    <div class="busqueda-medicos">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Buscar por nombre o especialidad...">
+                    </div>
+                    <div class="filtros-especialidad">
+                        <button class="btn-filtro activo">Todas</button>
+                        <button class="btn-filtro">Cardiología</button>
+                        <button class="btn-filtro">Traumatología</button>
+                        <button class="btn-filtro">Dermatología</button>
+                    </div>
+                </div>
+
+                <!-- Lista de Médicos -->
+                <div class="grid-medicos">
+                    <!-- Médico 1 -->
+                    <div class="tarjeta-medico">
+                        <div class="medico-header">
+                            <img src="https://via.placeholder.com/100" alt="Médico">
+                            <div class="info-medico-principal">
+                                <h3>Dra. Ana García</h3>
+                                <p class="especialidad">Cardiología</p>
+                                <div class="calificacion">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span>4.5</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="medico-info-detallada">
+                            <div class="info-item">
+                                <i class="fas fa-hospital"></i>
+                                <span>Clínica Central - Consultorio 302</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <span>Lunes a Viernes: 9:00 AM - 5:00 PM</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+51 999 888 777</span>
+                            </div>
+                        </div>
+                        <div class="medico-acciones">
+                            <button class="btn-agendar">Agendar Cita</button>
+                            <button class="btn-ver-perfil">Ver Perfil</button>
+                        </div>
+                    </div>
+
+                    <!-- Médico 2 -->
+                    <div class="tarjeta-medico">
+                        <div class="medico-header">
+                            <img src="https://via.placeholder.com/100" alt="Médico">
+                            <div class="info-medico-principal">
+                                <h3>Dr. Carlos Ruiz</h3>
+                                <p class="especialidad">Traumatología</p>
+                                <div class="calificacion">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>4.0</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="medico-info-detallada">
+                            <div class="info-item">
+                                <i class="fas fa-hospital"></i>
+                                <span>Clínica Norte - Consultorio 105</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <span>Lunes a Jueves: 8:00 AM - 4:00 PM</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+51 999 777 666</span>
+                            </div>
+                        </div>
+                        <div class="medico-acciones">
+                            <button class="btn-agendar">Agendar Cita</button>
+                            <button class="btn-ver-perfil">Ver Perfil</button>
+                        </div>
+                    </div>
+
+                    <!-- Médico 3 -->
+                    <div class="tarjeta-medico">
+                        <div class="medico-header">
+                            <img src="https://via.placeholder.com/100" alt="Médico">
+                            <div class="info-medico-principal">
+                                <h3>Dra. María López</h3>
+                                <p class="especialidad">Dermatología</p>
+                                <div class="calificacion">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="medico-info-detallada">
+                            <div class="info-item">
+                                <i class="fas fa-hospital"></i>
+                                <span>Clínica Sur - Consultorio 208</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <span>Martes a Sábado: 10:00 AM - 6:00 PM</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+51 999 555 444</span>
+                            </div>
+                        </div>
+                        <div class="medico-acciones">
+                            <button class="btn-agendar">Agendar Cita</button>
+                            <button class="btn-ver-perfil">Ver Perfil</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html> 

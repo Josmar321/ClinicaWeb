@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Paciente - NeoSalud</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="../../styles/patient.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="contenedor-paciente">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-sidebar">
+                <i class="fas fa-heartbeat"></i>
+                <h2>NeoSalud</h2>
+            </div>
+            <nav class="menu-paciente">
+                <ul>
+                    <li class="activo">
+                        <a href="dashboard.html"><i class="fas fa-home"></i> Inicio</a>
+                    </li>
+                    <li>
+                        <a href="citas.html"><i class="fas fa-calendar-check"></i> Mis Citas</a>
+                    </li>
+                    <li>
+                        <a href="historial.html"><i class="fas fa-file-medical"></i> Historial Médico</a>
+                    </li>
+                    <li>
+                        <a href="medicos.html"><i class="fas fa-user-md"></i> Mis Médicos</a>
+                    </li>
+                    <li>
+                        <a href="notificaciones.html"><i class="fas fa-bell"></i> Notificaciones</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Contenido Principal -->
+        <main class="contenido-principal">
+            <header class="header-paciente">
+                <div class="perfil-paciente">
+                    <span class="notificaciones">
+                        <i class="fas fa-bell"></i>
+                        <span class="badge">2</span>
+                    </span>
+                    <div class="paciente-info">
+                        <img src="https://via.placeholder.com/40" alt="Paciente">
+                        <span>Juan Pérez</span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="dashboard-contenido">
+                <div class="encabezado-dashboard">
+                    <h1>Bienvenido, Juan</h1>
+                    <button class="btn-nueva-cita">
+                        <i class="fas fa-plus"></i>
+                        Nueva Cita
+                    </button>
+                </div>
+
+                <!-- Próxima Cita -->
+                <section class="seccion proxima-cita">
+                    <h2>Tu Próxima Cita</h2>
+                    <div class="cita-detalle">
+                        <div class="info-cita-principal">
+                            <div class="fecha-hora">
+                                <i class="fas fa-calendar"></i>
+                                <span>20 de Marzo, 2024</span>
+                                <i class="fas fa-clock"></i>
+                                <span>10:30 AM</span>
+                            </div>
+                            <h3>Consulta con Dra. Ana García</h3>
+                            <p class="especialidad">Cardiología</p>
+                            <p class="local"><i class="fas fa-hospital"></i> Clínica Central - Consultorio 302</p>
+                        </div>
+                        <div class="acciones-cita">
+                            <button class="btn-cancelar">Cancelar Cita</button>
+                            <button class="btn-reprogramar">Reprogramar</button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Secciones de Gestión -->
+                <div class="secciones-gestion">
+                    <!-- Historial de Citas -->
+                    <section class="seccion">
+                        <h2>Historial de Citas</h2>
+                        <div class="lista-citas">
+                            <div class="cita-item">
+                                <div class="fecha-cita">
+                                    <span class="dia">15</span>
+                                    <span class="mes">Mar</span>
+                                </div>
+                                <div class="info-cita">
+                                    <h4>Dr. Carlos Ruiz</h4>
+                                    <p>Control Post-operatorio</p>
+                                    <span class="estado completada">Completada</span>
+                                </div>
+                            </div>
+                            <div class="cita-item">
+                                <div class="fecha-cita">
+                                    <span class="dia">10</span>
+                                    <span class="mes">Mar</span>
+                                </div>
+                                <div class="info-cita">
+                                    <h4>Dra. María López</h4>
+                                    <p>Consulta General</p>
+                                    <span class="estado completada">Completada</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Médicos Frecuentes -->
+                    <section class="seccion">
+                        <h2>Mis Médicos</h2>
+                        <div class="lista-medicos">
+                            <div class="medico-item">
+                                <img src="https://via.placeholder.com/60" alt="Médico">
+                                <div class="info-medico">
+                                    <h4>Dra. Ana García</h4>
+                                    <p>Cardiología</p>
+                                    <button class="btn-agendar">Agendar Cita</button>
+                                </div>
+                            </div>
+                            <div class="medico-item">
+                                <img src="https://via.placeholder.com/60" alt="Médico">
+                                <div class="info-medico">
+                                    <h4>Dr. Carlos Ruiz</h4>
+                                    <p>Traumatología</p>
+                                    <button class="btn-agendar">Agendar Cita</button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html> 

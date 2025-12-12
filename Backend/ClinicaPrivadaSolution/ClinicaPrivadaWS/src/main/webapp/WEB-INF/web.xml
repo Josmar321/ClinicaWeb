@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+   version="6.0">
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+	<servlet>
+        <servlet-name>ReporteCitasXPaciente</servlet-name>
+        <servlet-class>pe.edu.pucp.servlets.ReporteCitasXPaciente</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ReporteCitasXPaciente</servlet-name>
+        <url-pattern>/ReporteCitasXPaciente</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ReporteAtencionXMedico</servlet-name>
+		<servlet-class>pe.edu.pucp.servlets.ReporteAtencionXMedico</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ReporteAtencionXMedico</servlet-name>
+		<url-pattern>/ReporteAtencionXMedico</url-pattern>
+	</servlet-mapping>
+
+</web-app>

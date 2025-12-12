@@ -1,0 +1,213 @@
+﻿/* historial-clinico.css - Estilos para el historial clínico */
+
+/* Contenedor principal */
+.historial-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--espaciado-md);
+}
+
+/* Tarjeta principal */
+.historial-card {
+    background-color: var(--color-blanco);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+}
+
+/* Encabezado */
+.historial-header {
+    background-color: var(--color-sidebar);
+    color: var(--color-texto-sidebar);
+    padding: var(--espaciado-md);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+    .historial-header h2 {
+        margin: 0;
+        font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+    }
+
+        .historial-header h2 i {
+            margin-right: var(--espaciado-sm);
+        }
+
+/* Información del paciente */
+.paciente-info-header {
+    background-color: var(--color-fondo-claro);
+    padding: var(--espaciado-md);
+    border-bottom: 1px solid var(--color-borde);
+}
+
+.paciente-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin-right: var(--espaciado-md);
+}
+
+.paciente-datos h3 {
+    margin: 0 0 var(--espaciado-xs) 0;
+    color: var(--color-texto);
+}
+
+.paciente-datos p {
+    margin: 0;
+    color: var(--color-texto-claro);
+}
+
+.codigo-paciente {
+    background-color: var(--color-sidebar);
+    color: var(--color-blanco);
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius);
+    font-weight: bold;
+}
+
+/* Observaciones */
+.observaciones {
+    background-color: #e6f0ff;
+    padding: var(--espaciado-md);
+    color: #20438e;
+    border-left: 4px solid var(--color-principal);
+}
+
+/* Sección de citas */
+.citas-section {
+    padding: var(--espaciado-md);
+}
+
+.citas-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--espaciado-md);
+    padding-bottom: var(--espaciado-sm);
+    border-bottom: 1px solid var(--color-borde);
+}
+
+/* Items de citas */
+.cita-item {
+    border: 1px solid var(--color-borde);
+    border-radius: var(--border-radius);
+    margin-bottom: var(--espaciado-sm);
+    transition: var(--transition);
+    overflow: hidden;
+}
+
+    .cita-item:hover {
+        box-shadow: var(--shadow-sm);
+        transform: translateY(-2px);
+    }
+
+.cita-fecha {
+    display: flex;
+    align-items: center;
+    gap: var(--espaciado-md);
+    padding: var(--espaciado-sm) var(--espaciado-md);
+    background-color: var(--color-fondo-claro);
+}
+
+.cita-estado {
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.estado-pendiente {
+    background-color: var(--color-pendiente);
+    color: var(--color-blanco);
+}
+
+.estado-realizada {
+    background-color: var(--color-completada);
+    color: var(--color-blanco);
+}
+
+.estado-cancelada {
+    background-color: var(--color-cancelada);
+    color: var(--color-blanco);
+}
+
+.cita-detalle {
+    padding: var(--espaciado-md);
+}
+
+    .cita-detalle p {
+        margin: 0 0 var(--espaciado-xs) 0;
+    }
+
+.cita-acciones {
+    padding: var(--espaciado-sm) var(--espaciado-md);
+    border-top: 1px solid var(--color-borde);
+    text-align: right;
+}
+
+/* Mensajes */
+.mensaje-vacio {
+    text-align: center;
+    padding: var(--espaciado-lg);
+    color: var(--color-texto-claro);
+    background-color: var(--color-fondo-claro);
+    border-radius: var(--border-radius);
+}
+
+    .mensaje-vacio i {
+        font-size: 2rem;
+        margin-bottom: var(--espaciado-sm);
+        color: var(--color-texto-claro);
+    }
+
+/* Pie de página */
+.historial-footer {
+    padding: var(--espaciado-md);
+    border-top: 1px solid var(--color-borde);
+    text-align: left;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .paciente-info-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .paciente-avatar {
+        margin: 0 auto var(--espaciado-sm) auto;
+    }
+
+    .codigo-paciente {
+        margin-top: var(--espaciado-sm);
+    }
+
+    .citas-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--espaciado-sm);
+    }
+}
+
+@media (max-width: 480px) {
+    .cita-fecha {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--espaciado-xs);
+    }
+
+    .cita-acciones {
+        text-align: center;
+    }
+
+    .btn-agregar-cita {
+        width: 100%;
+    }
+}

@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar Cita - NeoSalud</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="../../styles/patient.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="contenedor-paciente">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-sidebar">
+                <i class="fas fa-heartbeat"></i>
+                <h2>NeoSalud</h2>
+            </div>
+            <nav class="menu-paciente">
+                <ul>
+                    <li>
+                        <a href="dashboard.html"><i class="fas fa-home"></i> Inicio</a>
+                    </li>
+                    <li>
+                        <a href="citas.html"><i class="fas fa-calendar-check"></i> Mis Citas</a>
+                    </li>
+                    <li>
+                        <a href="historial.html"><i class="fas fa-file-medical"></i> Historial Médico</a>
+                    </li>
+                    <li>
+                        <a href="perfilPaciente.html"><i class="fas fa-user"></i> Perfil</a>
+                    </li>
+                    <li>
+                        <a href="medicos.html"><i class="fas fa-user-md"></i> Mis Médicos</a>
+                    </li>
+                    <li>
+                        <a href="notificaciones.html"><i class="fas fa-bell"></i> Notificaciones</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Contenido Principal -->
+        <main class="contenido-principal">
+            <header class="header-paciente">
+                <div class="perfil-paciente">
+                    <span class="notificaciones">
+                        <i class="fas fa-bell"></i>
+                        <span class="badge">2</span>
+                    </span>
+                    <div class="paciente-info">
+                        <img src="https://via.placeholder.com/40" alt="Paciente">
+                        <span>Juan Pérez</span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="dashboard-contenido">
+                <div class="encabezado-dashboard">
+                    <h1>Agendar Cita</h1>
+                </div>
+
+                <!-- Formulario para Agendar Cita -->
+                <div class="form-agendar-cita">
+                    <form class="form-cita">
+                        <div class="campo-form">
+                            <label for="medico">Seleccionar Médico</label>
+                            <select id="medico" name="medico">
+                                <option value="ana-garcia">Dra. Ana García - Cardiología</option>
+                                <option value="carlos-ruiz">Dr. Carlos Ruiz - Traumatología</option>
+                                <option value="maria-lopez">Dra. María López - Dermatología</option>
+                            </select>
+                        </div>
+
+                        <div class="campo-form">
+                            <label for="especialidad">Especialidad</label>
+                            <select id="especialidad" name="especialidad">
+                                <option value="cardiologia">Cardiología</option>
+                                <option value="traumatologia">Traumatología</option>
+                                <option value="dermatologia">Dermatología</option>
+                            </select>
+                        </div>
+
+                        <div class="campo-form">
+                            <label for="fecha">Fecha de la Cita</label>
+                            <input type="date" id="fecha" name="fecha" required>
+                        </div>
+
+                        <div class="campo-form">
+                            <label for="hora">Hora de la Cita</label>
+                            <input type="time" id="hora" name="hora" required>
+                        </div>
+
+                        <div class="campo-form">
+                            <label for="descripcion">Descripción</label>
+                            <textarea id="descripcion" name="descripcion" rows="4" placeholder="Describe tu motivo de la consulta (opcional)"></textarea>
+                        </div>
+
+                        <div class="campo-form">
+                            <button type="submit" class="btn-agendar">Agendar Cita</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

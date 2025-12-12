@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historial Médico - NeoSalud</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="../../styles/patient.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="contenedor-paciente">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-sidebar">
+                <i class="fas fa-heartbeat"></i>
+                <h2>NeoSalud</h2>
+            </div>
+            <nav class="menu-paciente">
+                <ul>
+                    <li>
+                        <a href="dashboard.html"><i class="fas fa-home"></i> Inicio</a>
+                    </li>
+                    <li>
+                        <a href="citas.html"><i class="fas fa-calendar-check"></i> Mis Citas</a>
+                    </li>
+                    <li class="activo">
+                        <a href="historial.html"><i class="fas fa-file-medical"></i> Historial Médico</a>
+                    </li>
+                    <li>
+                        <a href="medicos.html"><i class="fas fa-user-md"></i> Mis Médicos</a>
+                    </li>
+                    <li>
+                        <a href="notificaciones.html"><i class="fas fa-bell"></i> Notificaciones</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Contenido Principal -->
+        <main class="contenido-principal">
+            <header class="header-paciente">
+                <div class="perfil-paciente">
+                    <span class="notificaciones">
+                        <i class="fas fa-bell"></i>
+                        <span class="badge">2</span>
+                    </span>
+                    <div class="paciente-info">
+                        <img src="https://via.placeholder.com/40" alt="Paciente">
+                        <span>Juan Pérez</span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="dashboard-contenido">
+                <div class="encabezado-dashboard">
+                    <h1>Historial Médico</h1>
+                    <button class="btn-descargar">
+                        <i class="fas fa-download"></i>
+                        Descargar Historial
+                    </button>
+                </div>
+
+                <!-- Información General -->
+                <section class="seccion info-general">
+                    <h2>Información General</h2>
+                    <div class="grid-info">
+                        <div class="info-item">
+                            <h3>Datos Personales</h3>
+                            <ul>
+                                <li><strong>Nombre:</strong> Juan Pérez</li>
+                                <li><strong>Edad:</strong> 35 años</li>
+                                <li><strong>Grupo Sanguíneo:</strong> O+</li>
+                                <li><strong>Alergias:</strong> Penicilina</li>
+                            </ul>
+                        </div>
+                        <div class="info-item">
+                            <h3>Condiciones Crónicas</h3>
+                            <ul>
+                                <li>Hipertensión Arterial</li>
+                                <li>Diabetes Tipo 2</li>
+                            </ul>
+                        </div>
+                        <div class="info-item">
+                            <h3>Medicamentos Actuales</h3>
+                            <ul>
+                                <li>Metformina 500mg</li>
+                                <li>Losartán 50mg</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Historial de Consultas -->
+                <section class="seccion historial-consultas">
+                    <h2>Historial de Consultas</h2>
+                    <div class="filtros-historial">
+                        <div class="busqueda-historial">
+                            <i class="fas fa-search"></i>
+                            <input type="text" placeholder="Buscar por médico o especialidad...">
+                        </div>
+                        <div class="filtros-fecha">
+                            <button class="btn-filtro activo">Todo</button>
+                            <button class="btn-filtro">Último Mes</button>
+                            <button class="btn-filtro">Último Año</button>
+                        </div>
+                    </div>
+
+                    <div class="lista-consultas">
+                        <!-- Consulta Reciente -->
+                        <div class="consulta-item">
+                            <div class="fecha-consulta">
+                                <span class="fecha">15 de Marzo, 2024</span>
+                                <span class="hora">09:00 AM</span>
+                            </div>
+                            <div class="info-consulta">
+                                <div class="medico-consulta">
+                                    <img src="https://via.placeholder.com/50" alt="Médico">
+                                    <div>
+                                        <h4>Dr. Carlos Ruiz</h4>
+                                        <p>Traumatología</p>
+                                    </div>
+                                </div>
+                                <div class="detalles-consulta">
+                                    <h5>Diagnóstico</h5>
+                                    <p>Esguince grado II en tobillo derecho</p>
+                                    <h5>Tratamiento</h5>
+                                    <ul>
+                                        <li>Reposo relativo</li>
+                                        <li>Inmovilización con tobillera</li>
+                                        <li>Ibuprofeno 400mg cada 8 horas</li>
+                                    </ul>
+                                    <h5>Observaciones</h5>
+                                    <p>Paciente refiere mejoría en la movilidad. Se recomienda continuar con ejercicios de rehabilitación.</p>
+                                </div>
+                                <div class="acciones-consulta">
+                                    <button class="btn-ver-receta">Ver Receta</button>
+                                    <button class="btn-ver-examenes">Ver Exámenes</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Consulta Anterior -->
+                        <div class="consulta-item">
+                            <div class="fecha-consulta">
+                                <span class="fecha">10 de Marzo, 2024</span>
+                                <span class="hora">11:30 AM</span>
+                            </div>
+                            <div class="info-consulta">
+                                <div class="medico-consulta">
+                                    <img src="https://via.placeholder.com/50" alt="Médico">
+                                    <div>
+                                        <h4>Dra. María López</h4>
+                                        <p>Dermatología</p>
+                                    </div>
+                                </div>
+                                <div class="detalles-consulta">
+                                    <h5>Diagnóstico</h5>
+                                    <p>Dermatitis atópica</p>
+                                    <h5>Tratamiento</h5>
+                                    <ul>
+                                        <li>Crema hidratante 2 veces al día</li>
+                                        <li>Corticosteroide tópico</li>
+                                    </ul>
+                                    <h5>Observaciones</h5>
+                                    <p>Se recomienda evitar contacto con alérgenos y mantener la piel hidratada.</p>
+                                </div>
+                                <div class="acciones-consulta">
+                                    <button class="btn-ver-receta">Ver Receta</button>
+                                    <button class="btn-ver-examenes">Ver Exámenes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+</body>
+</html> 

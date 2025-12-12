@@ -1,0 +1,215 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PacienteMaster.Master.cs" Inherits="ClinicaWeb.patient.PacienteMaster" %>
+
+<!DOCTYPE html>
+<html lang="es">
+<head runat="server">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+    <link rel="stylesheet" href="../../styles.css" />
+    <link rel="stylesheet" href="../../styles/patient.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <asp:ContentPlaceHolder ID="Content1" runat="server" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="contenedor-paciente">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="logo-sidebar">
+                    <i class="fas fa-heartbeat"></i>
+                    <h2>NeoSalud</h2>
+                </div>
+                <nav class="menu-paciente">
+                    <ul>
+                        <li class="menu-item" id="menuInicio">
+                            <asp:LinkButton runat="server" ID="btnInicio" CssClass="menu-link" OnClick="IrInicio">
+                                <i class="fas fa-home"></i>
+                                <span>Inicio</span>
+                            </asp:LinkButton>
+                        </li>
+                        <li class="menu-item" id="menuCitas">
+                            <asp:LinkButton runat="server" ID="btnCitas" CssClass="menu-link" OnClick="IrCitas">
+                                <i class="fas fa-calendar-check"></i>
+                                <span>Mis Citas</span>
+                            </asp:LinkButton>
+                        </li>
+                        <li class="menu-item" id="menuHistorial">
+                            <asp:LinkButton runat="server" ID="btnHistorial" CssClass="menu-link" OnClick="IrHistorial">
+                                <i class="fas fa-file-medical"></i>
+                                <span>Historial Médico</span>
+                            </asp:LinkButton>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+
+            <!-- Contenido Principal -->
+            <main class="contenido-principal">
+                <header class="header-paciente">
+                    <div class="header-left">
+                        <!-- Espacio vacío para mantener el layout -->
+                    </div>
+                    <div class="header-right">
+                        <div class="paciente-profile">
+                            <div class="profile-dropdown">
+                                <button type="button" class="profile-button" onclick="toggleProfileDropdown()">
+                                    <div class="profile-avatar">
+                                        <asp:Image ID="imgPacienteFoto" runat="server" CssClass="paciente-profile-image" />
+                                        <div class="paciente-avatar-placeholder" id="pacienteAvatarPlaceholder">
+                                            <i class="fas fa-user"></i>
+                                        </div>
+                                        <div class="online-indicator"></div>
+                                    </div>
+                                    <div class="profile-info">
+                                        <span class="profile-name"><%: Session["NombrePaciente"] ?? "Paciente" %></span>
+                                        <span class="profile-role">Paciente</span>
+                                    </div>
+                                    <i class="fas fa-chevron-down profile-arrow"></i>
+                                </button>
+                                <div id="profileDropdown" class="profile-dropdown-menu">
+                                    <div class="dropdown-divider"></div>
+                                    <asp:LinkButton ID="btnCerrarSesion" runat="server" CssClass="dropdown-item" OnClick="CerrarSesion">
+                                        <i class="fas fa-sign-out-alt"></i>
+                                        <span>Cerrar Sesión</span>
+                                    </asp:LinkButton>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+            </main>
+        </div>
+    </form>
+</body>
+</html>
+
+<script>
+// Función para manejar el dropdown del perfil
+function toggleProfileDropdown() {
+    const dropdown = document.getElementById('profileDropdown');
+    const button = document.querySelector('.profile-button');
+    const arrow = document.querySelector('.profile-arrow');
+    
+    dropdown.classList.toggle('show');
+    button.classList.toggle('active');
+    arrow.classList.toggle('rotate');
+}
+
+// Cerrar dropdown al hacer clic fuera
+document.addEventListener('click', function(event) {
+    const dropdown = document.getElementById('profileDropdown');
+    const button = document.querySelector('.profile-button');
+    
+    if (!button.contains(event.target) && !dropdown.contains(event.target)) {
+        dropdown.classList.remove('show');
+        button.classList.remove('active');
+        document.querySelector('.profile-arrow').classList.remove('rotate');
+    }
+});
+
+// Función para marcar la página activa
+function setActivePage(pageId) {
+    console.log('Setting active page:', pageId);
+    
+    // Remover clase activa de todos los elementos del menú
+    document.querySelectorAll('.menu-item').forEach(item => {
+        item.classList.remove('active');
+    });
+    
+    // Agregar clase activa al elemento correspondiente
+    const activeItem = document.getElementById(pageId);
+    if (activeItem) {
+        activeItem.classList.add('active');
+        console.log('Active item found and class added');
+    } else {
+        console.log('Active item not found for ID:', pageId);
+    }
+}
+
+// Detectar la página actual basada en la URL
+function detectCurrentPage() {
+    const path = window.location.pathname;
+    console.log('Current path:', path);
+    
+    // Extraer solo el nombre del archivo de la URL
+    const fileName = path.split('/').pop();
+    console.log('FileName:', fileName);
+    
+    // Mapeo por nombre de archivo
+    const fileNameMap = {
+        'dashboard.aspx': 'menuInicio',
+        'inicio.aspx': 'menuInicio',
+        'citas.aspx': 'menuCitas',
+        'agendarCita.aspx': 'menuCitas',
+        'historial.aspx': 'menuHistorial',
+        'medicos.aspx': 'menuMedicos',
+        'notificaciones.aspx': 'menuNotificaciones',
+        'perfil.aspx': 'menuInicio',
+        'configuracion.aspx': 'menuInicio'
+    };
+    
+    const pageId = fileNameMap[fileName] || 'menuInicio';
+    console.log('Detected page ID:', pageId);
+    setActivePage(pageId);
+}
+
+// Ejecutar al cargar la página
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOM loaded, detecting current page...');
+    detectCurrentPage();
+});
+
+// También ejecutar cuando la página se carga completamente
+window.addEventListener('load', function() {
+    console.log('Window loaded, detecting current page...');
+    detectCurrentPage();
+});
+
+// Ejecutar inmediatamente si el DOM ya está cargado
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', detectCurrentPage);
+} else {
+    detectCurrentPage();
+}
+
+// Función para mostrar la foto del paciente
+function mostrarFotoPaciente() {
+    const pacienteFoto = document.getElementById('<%= imgPacienteFoto.ClientID %>');
+    const pacienteAvatarPlaceholder = document.getElementById('pacienteAvatarPlaceholder');
+    
+    // Obtener la foto desde el ViewState (se pasará como variable JavaScript)
+    const fotoUrl = '<%= ViewState["FotoPaciente"] %>';
+    
+    if (fotoUrl && fotoUrl !== '') {
+        // Mostrar la foto real
+        pacienteFoto.src = fotoUrl;
+        pacienteFoto.style.display = 'block';
+        if (pacienteAvatarPlaceholder) {
+            pacienteAvatarPlaceholder.style.display = 'none';
+        }
+    } else {
+        // Mostrar el placeholder
+        pacienteFoto.style.display = 'none';
+        if (pacienteAvatarPlaceholder) {
+            pacienteAvatarPlaceholder.style.display = 'flex';
+        }
+    }
+}
+
+// Ejecutar al cargar la página para mostrar la foto
+document.addEventListener('DOMContentLoaded', function() {
+    mostrarFotoPaciente();
+});
+
+// También ejecutar cuando la página se carga completamente
+window.addEventListener('load', function() {
+    mostrarFotoPaciente();
+});
+</script>

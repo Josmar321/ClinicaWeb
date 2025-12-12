@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://services.pucp.edu.pe" targetNamespace="http://services.pucp.edu.pe" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="eliminarDepartamento" type="tns:eliminarDepartamento" />
+  <xs:element name="eliminarDepartamentoResponse" type="tns:eliminarDepartamentoResponse" />
+  <xs:element name="insertarDepartamento" type="tns:insertarDepartamento" />
+  <xs:element name="insertarDepartamentoResponse" type="tns:insertarDepartamentoResponse" />
+  <xs:element name="listarDepartamentos" type="tns:listarDepartamentos" />
+  <xs:element name="listarDepartamentosResponse" type="tns:listarDepartamentosResponse" />
+  <xs:element name="modificarDepartamento" type="tns:modificarDepartamento" />
+  <xs:element name="modificarDepartamentoResponse" type="tns:modificarDepartamentoResponse" />
+  <xs:complexType name="insertarDepartamento">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="departamento" type="tns:departamento" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="departamento">
+    <xs:sequence>
+      <xs:element name="activo" type="xs:boolean" />
+      <xs:element name="id" type="xs:int" />
+      <xs:element minOccurs="0" name="nombre" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="insertarDepartamentoResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="modificarDepartamento">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="departamento" type="tns:departamento" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="modificarDepartamentoResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="eliminarDepartamento">
+    <xs:sequence>
+      <xs:element name="idDepartamento" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="eliminarDepartamentoResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarDepartamentos">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="listarDepartamentosResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:departamento" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

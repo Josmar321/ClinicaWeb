@@ -1,0 +1,371 @@
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\ClinicaWeb.dll.config
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\ClinicaWeb.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\ClinicaWeb.pdb
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\csc.exe
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\csc.exe.config
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\csc.rsp
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\csi.exe
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\csi.exe.config
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\csi.rsp
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\System.AppContext.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\System.Console.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\vbc.exe
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\vbc.exe.config
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\vbc.rsp
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\Antlr3.Runtime.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\Newtonsoft.Json.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\System.Web.Optimization.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\WebGrease.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\System.Web.Optimization.xml
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\Newtonsoft.Json.xml
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\Antlr3.Runtime.pdb
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\es\System.Web.Optimization.resources.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\obj\Debug\ClinicaWeb.csproj.AssemblyReference.cache
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\obj\Debug\ClinicaWeb.csproj.CoreCompileInputs.cache
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\obj\Debug\ClinicaWeb.csproj.Up2Date
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\obj\Debug\ClinicaWeb.dll
+C:\Users\kotem\Downloads\Programación 3\TA\ClinicaWeb\obj\Debug\ClinicaWeb.pdb
+D:\GitHub\AltF4\ClinicaWeb\bin\ClinicaWeb.dll.config
+D:\GitHub\AltF4\ClinicaWeb\bin\ClinicaWeb.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\ClinicaWeb.pdb
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\csc.exe
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\csc.exe.config
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\csc.rsp
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\csi.exe
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\csi.exe.config
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\csi.rsp
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\Microsoft.Managed.Core.targets
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.Collections.Immutable.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.Reflection.Metadata.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\vbc.exe
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\vbc.exe.config
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\vbc.rsp
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\VBCSCompiler.exe
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\VBCSCompiler.exe.config
+D:\GitHub\AltF4\ClinicaWeb\bin\Antlr3.Runtime.pdb
+D:\GitHub\AltF4\ClinicaWeb\bin\es\System.Web.Optimization.resources.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+D:\GitHub\AltF4\ClinicaWeb\obj\Debug\ClinicaWeb.csproj.AssemblyReference.cache
+D:\GitHub\AltF4\ClinicaWeb\obj\Debug\ClinicaWeb.csproj.CoreCompileInputs.cache
+D:\GitHub\AltF4\ClinicaWeb\obj\Debug\ClinicaWeb.csproj.Up2Date
+D:\GitHub\AltF4\ClinicaWeb\obj\Debug\ClinicaWeb.dll
+D:\GitHub\AltF4\ClinicaWeb\obj\Debug\ClinicaWeb.pdb
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\ClinicaWeb.dll.config
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\ClinicaWeb.dll
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\ClinicaWeb.pdb
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\csc.exe
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\csc.exe.config
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\csc.rsp
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\csi.exe
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\csi.exe.config
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\csi.rsp
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\vbc.exe
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\vbc.exe.config
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\vbc.rsp
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\obj\Debug\ClinicaWeb.csproj.AssemblyReference.cache
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\obj\Debug\ClinicaWeb.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\obj\Debug\ClinicaWeb.csproj.Up2Date
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\obj\Debug\ClinicaWeb.dll
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\obj\Debug\ClinicaWeb.pdb
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\obj\Debug\ClinicaWeb.csproj.AssemblyReference.cache
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\obj\Debug\ClinicaWeb.csproj.CoreCompileInputs.cache
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\ClinicaWeb.dll.config
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\ClinicaWeb.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\ClinicaWeb.pdb
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\csc.exe
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\Newtonsoft.Json.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\obj\Debug\ClinicaWeb.csproj.Up2Date
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\obj\Debug\ClinicaWeb.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\obj\Debug\ClinicaWeb.pdb
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\obj\Debug\ClinicaWeb.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\obj\Debug\ClinicaWeb.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\ClinicaWeb.dll.config
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\ClinicaWeb.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\ClinicaWeb.pdb
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\csc.exe
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\csc.exe.config
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\csc.rsp
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\csi.exe
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\csi.exe.config
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\csi.rsp
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\System.AppContext.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\System.Console.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\vbc.exe
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\vbc.exe.config
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\vbc.rsp
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\System.Web.Optimization.xml
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\Antlr3.Runtime.pdb
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\es\System.Web.Optimization.resources.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\obj\Debug\ClinicaWeb.csproj.Up2Date
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\obj\Debug\ClinicaWeb.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\LAB12_Grupo_AltF4\AltF4\ClinicaWeb\obj\Debug\ClinicaWeb.pdb
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\System.Web.Optimization.xml
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\Antlr3.Runtime.pdb
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\es\System.Web.Optimization.resources.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\StarkbankEcdsa.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\SendGrid.pdb
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.Buffers.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.Memory.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.Numerics.Vectors.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\System.Memory.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\SendGrid.pdb
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\SendGrid.xml
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\Antlr3.Runtime.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\SendGrid.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\System.Web.Optimization.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\WebGrease.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\Newtonsoft.Json.xml
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\csc.exe.config
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\csc.rsp
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\csi.exe
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\csi.exe.config
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\csi.rsp
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\System.Buffers.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\vbc.exe
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\vbc.exe.config
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\vbc.rsp
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\kotem\Downloads\AltF4\ClinicaWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\System.Buffers.dll
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\System.Memory.dll
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\andre\OneDrive\Escritorio\Programas netbeans\PROGRAMACION 3\TAGIT\AltF4\AltF4\ClinicaWeb\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.AppContext.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.Console.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.Globalization.Calendars.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.IO.Compression.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.IO.FileSystem.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.Net.Http.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.Net.Sockets.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.ValueTuple.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.Xml.XmlDocument.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.Xml.XPath.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\GitHub\AltF4\ClinicaWeb\bin\StarkbankEcdsa.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\ClinicaWeb.dll.config
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\ClinicaWeb.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\ClinicaWeb.pdb
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\csc.exe
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\csc.exe.config
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\csc.rsp
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\csi.exe
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\csi.exe.config
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\csi.rsp
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.AppContext.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.Buffers.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.Console.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.Memory.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\vbc.exe
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\vbc.exe.config
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\vbc.rsp
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\StarkbankEcdsa.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\Antlr3.Runtime.pdb
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\SendGrid.pdb
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\bin\es\System.Web.Optimization.resources.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\obj\Debug\ClinicaWeb.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\obj\Debug\ClinicaWeb.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\obj\Debug\ClinicaWeb.csproj.Up2Date
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\obj\Debug\ClinicaWeb.dll
+C:\Users\user\Desktop\PUCP\2025-1\PROGRA3\TA Alt F4\TA_Entrega_Final\ULTIMA VERSION\AltF4\ClinicaWeb\obj\Debug\ClinicaWeb.pdb

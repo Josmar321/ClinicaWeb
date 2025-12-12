@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacientes - NeoSalud</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="../../styles/doctor.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="contenedor-medico">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-sidebar">
+                <i class="fas fa-heartbeat"></i>
+                <h2>NeoSalud</h2>
+            </div>
+            <nav class="menu-medico">
+                <ul>
+                    <li>
+                        <a href="dashboard.html"><i class="fas fa-home"></i> Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="agenda.html"><i class="fas fa-calendar-alt"></i> Agenda</a>
+                    </li>
+                    <li class="activo">
+                        <a href="pacientes.html"><i class="fas fa-users"></i> Pacientes</a>
+                    </li>
+                    <li>
+                        <a href="horarios.html"><i class="fas fa-clock"></i> Horarios</a>
+                    </li>
+                    <li>
+                        <a href="reportes.html"><i class="fas fa-chart-line"></i> Reportes</a>
+                    </li>
+                    <li>
+                        <a href="notificaciones.html"><i class="fas fa-bell"></i> Notificaciones</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Contenido Principal -->
+        <main class="contenido-principal">
+            <header class="header-medico">
+                <div class="buscador">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Buscar paciente...">
+                </div>
+                <div class="perfil-medico">
+                    <span class="notificaciones">
+                        <i class="fas fa-bell"></i>
+                        <span class="badge">2</span>
+                    </span>
+                    <div class="medico-info">
+                        <img src="https://via.placeholder.com/40" alt="Médico">
+                        <span>Dr. García</span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="dashboard-contenido">
+                <div class="encabezado-dashboard">
+                    <h1>Mis Pacientes</h1>
+                    <div class="acciones-pacientes">
+                        <button class="btn-nuevo-paciente">
+                            <i class="fas fa-user-plus"></i>
+                            Nuevo Paciente
+                        </button>
+                        <button class="btn-exportar">
+                            <i class="fas fa-download"></i>
+                            Exportar Lista
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Filtros -->
+                <div class="filtros-pacientes">
+                    <div class="busqueda-pacientes">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Buscar por nombre, DNI o diagnóstico...">
+                    </div>
+                    <div class="filtros-categoria">
+                        <button class="btn-filtro activo">Todos</button>
+                        <button class="btn-filtro">Recientes</button>
+                        <button class="btn-filtro">Frecuentes</button>
+                        <button class="btn-filtro">Con Cita Pendiente</button>
+                    </div>
+                </div>
+
+                <!-- Lista de Pacientes -->
+                <div class="grid-pacientes">
+                    <!-- Paciente 1 -->
+                    <div class="tarjeta-paciente">
+                        <div class="paciente-header">
+                            <img src="https://via.placeholder.com/80" alt="Paciente">
+                            <div class="info-paciente-principal">
+                                <h3>Juan Pérez</h3>
+                                <p class="edad">35 años</p>
+                                <p class="ultima-visita">Última visita: 15/03/2024</p>
+                            </div>
+                        </div>
+                        <div class="paciente-info-detallada">
+                            <div class="info-item">
+                                <i class="fas fa-id-card"></i>
+                                <span>DNI: 12345678</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+51 999 888 777</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>juan.perez@email.com</span>
+                            </div>
+                            <div class="diagnosticos">
+                                <h4>Diagnósticos Recientes</h4>
+                                <ul>
+                                    <li>Hipertensión Arterial</li>
+                                    <li>Diabetes Tipo 2</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="paciente-acciones">
+                            <button class="btn-ver-historial">Ver Historial</button>
+                            <button class="btn-agendar">Agendar Cita</button>
+                            <button class="btn-contactar">Contactar</button>
+                        </div>
+                    </div>
+
+                    <!-- Paciente 2 -->
+                    <div class="tarjeta-paciente">
+                        <div class="paciente-header">
+                            <img src="https://via.placeholder.com/80" alt="Paciente">
+                            <div class="info-paciente-principal">
+                                <h3>María López</h3>
+                                <p class="edad">28 años</p>
+                                <p class="ultima-visita">Última visita: 18/03/2024</p>
+                            </div>
+                        </div>
+                        <div class="paciente-info-detallada">
+                            <div class="info-item">
+                                <i class="fas fa-id-card"></i>
+                                <span>DNI: 87654321</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+51 999 777 666</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>maria.lopez@email.com</span>
+                            </div>
+                            <div class="diagnosticos">
+                                <h4>Diagnósticos Recientes</h4>
+                                <ul>
+                                    <li>Control Post-operatorio</li>
+                                    <li>Recuperación Cirugía</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="paciente-acciones">
+                            <button class="btn-ver-historial">Ver Historial</button>
+                            <button class="btn-agendar">Agendar Cita</button>
+                            <button class="btn-contactar">Contactar</button>
+                        </div>
+                    </div>
+
+                    <!-- Paciente 3 -->
+                    <div class="tarjeta-paciente">
+                        <div class="paciente-header">
+                            <img src="https://via.placeholder.com/80" alt="Paciente">
+                            <div class="info-paciente-principal">
+                                <h3>Carlos Ruiz</h3>
+                                <p class="edad">45 años</p>
+                                <p class="ultima-visita">Próxima cita: 20/03/2024</p>
+                            </div>
+                        </div>
+                        <div class="paciente-info-detallada">
+                            <div class="info-item">
+                                <i class="fas fa-id-card"></i>
+                                <span>DNI: 45678912</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+51 999 555 444</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>carlos.ruiz@email.com</span>
+                            </div>
+                            <div class="diagnosticos">
+                                <h4>Diagnósticos Recientes</h4>
+                                <ul>
+                                    <li>Revisión de Resultados</li>
+                                    <li>Control Anual</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="paciente-acciones">
+                            <button class="btn-ver-historial">Ver Historial</button>
+                            <button class="btn-agendar">Agendar Cita</button>
+                            <button class="btn-contactar">Contactar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html> 

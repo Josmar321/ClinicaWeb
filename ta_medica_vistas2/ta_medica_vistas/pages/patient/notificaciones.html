@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notificaciones - NeoSalud</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="../../styles/patient.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="contenedor-paciente">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-sidebar">
+                <i class="fas fa-heartbeat"></i>
+                <h2>NeoSalud</h2>
+            </div>
+            <nav class="menu-paciente">
+                <ul>
+                    <li>
+                        <a href="dashboard.html"><i class="fas fa-home"></i> Inicio</a>
+                    </li>
+                    <li>
+                        <a href="citas.html"><i class="fas fa-calendar-check"></i> Mis Citas</a>
+                    </li>
+                    <li>
+                        <a href="historial.html"><i class="fas fa-file-medical"></i> Historial Médico</a>
+                    </li>
+                    <li>
+                        <a href="perfilPaciente.html"><i class="fas fa-user"></i> Perfil</a>
+                    </li>
+                    <li>
+                        <a href="medicos.html"><i class="fas fa-user-md"></i> Mis Médicos</a>
+                    </li>
+                    <li class="activo">
+                        <a href="notificaciones.html"><i class="fas fa-bell"></i> Notificaciones</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Contenido Principal -->
+        <main class="contenido-principal">
+            <header class="header-paciente">
+                <div class="perfil-paciente">
+                    <span class="notificaciones">
+                        <i class="fas fa-bell"></i>
+                        <span class="badge">2</span>
+                    </span>
+                    <div class="paciente-info">
+                        <img src="https://via.placeholder.com/40" alt="Paciente">
+                        <span>Juan Pérez</span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="dashboard-contenido">
+                <div class="encabezado-dashboard">
+                    <h1>Notificaciones</h1>
+                    <div class="acciones-notificaciones">
+                        <button class="btn-marcar-todas">
+                            <i class="fas fa-check-double"></i>
+                            Marcar todas como leídas
+                        </button>
+                        <button class="btn-limpiar">
+                            <i class="fas fa-trash"></i>
+                            Limpiar notificaciones
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Lista de Notificaciones -->
+                <div class="lista-notificaciones">
+                    <!-- Notificación No Leída -->
+                    <div class="notificacion-item no-leida">
+                        <div class="icono-notificacion">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <div class="contenido-notificacion">
+                            <div class="encabezado-notificacion">
+                                <h3>Cita Confirmada</h3>
+                                <span class="tiempo">Hace 2 horas</span>
+                            </div>
+                            <p>Tu cita con la Dra. Ana García ha sido confirmada para el 20 de Marzo a las 10:30 AM.</p>
+                            <div class="acciones-notificacion">
+                                <button class="btn-ver-detalle">Ver Detalles</button>
+                                <button class="btn-marcar-leida">Marcar como leída</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Notificación No Leída -->
+                    <div class="notificacion-item no-leida">
+                        <div class="icono-notificacion">
+                            <i class="fas fa-bell"></i>
+                        </div>
+                        <div class="contenido-notificacion">
+                            <div class="encabezado-notificacion">
+                                <h3>Recordatorio de Cita</h3>
+                                <span class="tiempo">Hace 5 horas</span>
+                            </div>
+                            <p>No olvides tu cita mañana con el Dr. Carlos Ruiz a las 9:00 AM.</p>
+                            <div class="acciones-notificacion">
+                                <button class="btn-ver-detalle">Ver Detalles</button>
+                                <button class="btn-marcar-leida">Marcar como leída</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Notificación Leída -->
+                    <div class="notificacion-item">
+                        <div class="icono-notificacion">
+                            <i class="fas fa-file-medical"></i>
+                        </div>
+                        <div class="contenido-notificacion">
+                            <div class="encabezado-notificacion">
+                                <h3>Nuevo Resultado Disponible</h3>
+                                <span class="tiempo">Ayer</span>
+                            </div>
+                            <p>Los resultados de tus análisis de laboratorio ya están disponibles.</p>
+                            <div class="acciones-notificacion">
+                                <button class="btn-ver-detalle">Ver Resultados</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Notificación Leída -->
+                    <div class="notificacion-item">
+                        <div class="icono-notificacion">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                        <div class="contenido-notificacion">
+                            <div class="encabezado-notificacion">
+                                <h3>Médico Actualizado</h3>
+                                <span class="tiempo">Hace 2 días</span>
+                            </div>
+                            <p>La Dra. María López ha actualizado su horario de atención.</p>
+                            <div class="acciones-notificacion">
+                                <button class="btn-ver-detalle">Ver Horarios</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Notificación Leída -->
+                    <div class="notificacion-item">
+                        <div class="icono-notificacion">
+                            <i class="fas fa-info-circle"></i>
+                        </div>
+                        <div class="contenido-notificacion">
+                            <div class="encabezado-notificacion">
+                                <h3>Actualización del Sistema</h3>
+                                <span class="tiempo">Hace 1 semana</span>
+                            </div>
+                            <p>Hemos actualizado nuestro sistema para mejorar tu experiencia. Descubre las nuevas funciones.</p>
+                            <div class="acciones-notificacion">
+                                <button class="btn-ver-detalle">Ver Cambios</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html> 

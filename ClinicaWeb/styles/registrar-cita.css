@@ -1,0 +1,151 @@
+﻿/* registrar-cita.css - Estilos para el formulario de registro de citas */
+
+/* Contenedor principal */
+.registrar-cita-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--espaciado-md);
+}
+
+/* Tarjeta principal */
+.registrar-cita-card {
+    background-color: var(--color-blanco);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+}
+
+/* Encabezado */
+.registrar-cita-header {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+    padding: var(--espaciado-md);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+    .registrar-cita-header h2 {
+        margin: 0;
+        font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+    }
+
+/* Cuerpo del formulario */
+.registrar-cita-body {
+    padding: var(--espaciado-md);
+}
+
+/* Grupos de formulario */
+.form-group {
+    margin-bottom: var(--espaciado-md);
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--espaciado-md);
+}
+
+    .form-row > .form-group {
+        flex: 1;
+        min-width: 250px;
+    }
+
+/* Etiquetas */
+.form-label {
+    display: block;
+    margin-bottom: var(--espaciado-xs);
+    font-weight: 500;
+    color: var(--color-texto);
+}
+
+/* Campos de entrada con iconos */
+.input-with-icon {
+    position: relative;
+}
+
+    .input-with-icon i {
+        position: absolute;
+        left: var(--espaciado-md);
+        top: 50%;
+        transform: translateY(-50%);
+        color: var(--color-texto-claro);
+        z-index: 2;
+    }
+
+    .input-with-icon .form-control,
+    .input-with-icon .form-select {
+        padding-left: calc(var(--espaciado-md) * 2.5);
+    }
+
+/* Botones */
+.registrar-cita-footer {
+    padding: var(--espaciado-md);
+    border-top: 1px solid var(--color-borde);
+    text-align: right;
+}
+
+.btn-cancelar {
+    padding: 0.5rem 1.5rem;
+    background-color: var(--color-texto-claro);
+    color: var(--color-blanco);
+    border: none;
+    border-radius: var(--border-radius);
+    margin-right: var(--espaciado-sm);
+    transition: var(--transition);
+}
+
+    .btn-cancelar:hover {
+        background-color: var(--color-texto);
+    }
+
+.btn-registrar {
+    padding: 0.5rem 1.5rem;
+    background-color: var(--color-exito);
+    color: var(--color-blanco);
+    border: none;
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+}
+
+    .btn-registrar:hover {
+        background-color: #27ae60;
+        box-shadow: var(--shadow-sm);
+    }
+
+/* Mensajes de error */
+.mensaje-error {
+    background-color: #fff1f0;
+    color: var(--color-cancelada);
+    padding: var(--espaciado-sm) var(--espaciado-md);
+    border-radius: var(--border-radius);
+    margin-bottom: var(--espaciado-md);
+    display: flex;
+    align-items: center;
+}
+
+    .mensaje-error i {
+        margin-right: var(--espaciado-sm);
+    }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .form-row {
+        flex-direction: column;
+        gap: var(--espaciado-sm);
+    }
+
+        .form-row > .form-group {
+            width: 100%;
+        }
+
+    .registrar-cita-footer {
+        text-align: center;
+    }
+
+    .btn-cancelar,
+    .btn-registrar {
+        width: 100%;
+        margin-bottom: var(--espaciado-sm);
+    }
+}

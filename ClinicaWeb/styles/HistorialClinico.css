@@ -1,0 +1,161 @@
+﻿/* Base Styles */
+.historial-container {
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+.historial-header {
+    background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+    padding: 1rem 1.5rem;
+    border-bottom: none;
+}
+
+    .historial-header h4 {
+        font-weight: 600;
+    }
+
+/* Patient Info Section */
+.patient-info-card {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.info-paciente-header {
+    padding: 1.5rem;
+}
+
+.patient-name {
+    font-size: 1.4rem;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.patient-code {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    background-color: #6c757d;
+}
+
+.patient-notes {
+    background-color: #f8fafc;
+    border-top: 1px solid #eaeaea;
+    padding: 1rem 1.5rem;
+}
+
+/* Appointments Section */
+.appointments-card {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.appointments-header {
+    background-color: white;
+    border-bottom: 1px solid #eaeaea;
+    padding: 1rem 1.5rem;
+}
+
+.appointment-item {
+    border-left: 4px solid #3498db;
+    transition: all 0.2s ease;
+}
+
+    .appointment-item:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+.appointment-status {
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.status-completed {
+    background-color: #28a745;
+    color: white;
+}
+
+.status-pending {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.status-canceled {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Buttons */
+.btn-add-appointment {
+    background-color: #3498db;
+    border-color: #3498db;
+    font-weight: 500;
+}
+
+    .btn-add-appointment:hover {
+        background-color: #2980b9;
+        border-color: #2980b9;
+        transform: translateY(-1px);
+    }
+
+.btn-edit-appointment {
+    transition: all 0.2s ease;
+}
+
+    .btn-edit-appointment:hover {
+        background-color: #3498db;
+        color: white;
+    }
+
+.btn-back {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+    .btn-back:hover {
+        background-color: #5a6268;
+        border-color: #5a6268;
+    }
+
+/* Empty State */
+.no-appointments {
+    padding: 2rem;
+    text-align: center;
+    color: #6c757d;
+}
+
+    .no-appointments i {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+        color: #adb5bd;
+    }
+
+/* Icons */
+.fas {
+    margin-right: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .info-paciente-header .col-md-4 {
+        text-align: left !important;
+        margin-top: 1rem;
+    }
+
+    .appointments-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .btn-add-appointment {
+        margin-top: 1rem;
+        align-self: flex-end;
+    }
+}

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Locales - NeoSalud</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="../../styles/admin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="contenedor-admin">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-sidebar">
+                <i class="fas fa-heartbeat"></i>
+                <h2>NeoSalud</h2>
+            </div>
+            <nav class="menu-admin">
+                <ul>
+                    <li>
+                        <a href="dashboard.html"><i class="fas fa-home"></i> Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="usuarios.html"><i class="fas fa-users"></i> Usuarios</a>
+                    </li>
+                    <li>
+                        <a href="medicos.html"><i class="fas fa-user-md"></i> Médicos</a>
+                    </li>
+                    <li>
+                        <a href="especialidades.html"><i class="fas fa-stethoscope"></i> Especialidades</a>
+                    </li>
+                    <li class="activo">
+                        <a href="locales.html"><i class="fas fa-hospital"></i> Locales</a>
+                    </li>
+                    <li>
+                        <a href="reportes.html"><i class="fas fa-chart-bar"></i> Reportes</a>
+                    </li>
+                    <li>
+                        <a href="configuracion.html"><i class="fas fa-cog"></i> Configuración</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Contenido Principal -->
+        <main class="contenido-principal">
+            <header class="header-admin">
+                <div class="buscador">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Buscar local...">
+                </div>
+                <div class="perfil-admin">
+                    <span class="notificaciones">
+                        <i class="fas fa-bell"></i>
+                        <span class="badge">3</span>
+                    </span>
+                    <div class="admin-info">
+                        <img src="https://via.placeholder.com/40" alt="Admin">
+                        <span>Admin</span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="pagina-gestion">
+                <!-- Encabezado de la página -->
+                <div class="encabezado-gestion">
+                    <h1>Gestión de Locales</h1>
+                    <div class="acciones-gestion">
+                        <button class="btn-nuevo">
+                            <i class="fas fa-plus"></i> Nuevo Local
+                        </button>
+                        <button class="btn-filtro">
+                            <i class="fas fa-filter"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Filtros -->
+                <div class="filtros-gestion">
+                    <div class="busqueda-avanzada">
+                        <div class="grid-filtros">
+                            <div class="form-grupo">
+                                <label>Estado</label>
+                                <select>
+                                    <option value="">Todos los estados</option>
+                                    <option value="activo">Activo</option>
+                                    <option value="inactivo">Inactivo</option>
+                                </select>
+                            </div>
+                            <div class="form-grupo">
+                                <label>Ordenar por</label>
+                                <select>
+                                    <option value="nombre">Nombre</option>
+                                    <option value="medicos">Cantidad de Médicos</option>
+                                    <option value="citas">Citas Programadas</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lista de Locales -->
+                <div class="grid-gestion">
+                    <!-- Tarjeta de Local -->
+                    <div class="tarjeta-gestion">
+                        <div class="tarjeta-header">
+                            <div class="estado activo">Activo</div>
+                            <div class="acciones-rapidas">
+                                <button class="btn-accion" title="Editar">
+                                    <i class="fas fa-edit"></i>
+                                </button>
+                                <button class="btn-accion" title="Más opciones">
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="tarjeta-contenido">
+                            <div class="local-info-principal">
+                                <div class="local-imagen">
+                                    <img src="https://via.placeholder.com/300x200" alt="Local Central">
+                                </div>
+                                <div class="info-basica">
+                                    <h3>Local Central</h3>
+                                    <p class="direccion">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Av. Principal 123, Ciudad
+                                    </p>
+                                    <p class="telefono">
+                                        <i class="fas fa-phone"></i>
+                                        (123) 456-7890
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="local-detalles">
+                                <div class="detalle-item">
+                                    <i class="fas fa-user-md"></i>
+                                    <span>25 médicos</span>
+                                </div>
+                                <div class="detalle-item">
+                                    <i class="fas fa-calendar-check"></i>
+                                    <span>120 citas hoy</span>
+                                </div>
+                                <div class="detalle-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span>Lun-Vie: 8:00 - 20:00</span>
+                                </div>
+                            </div>
+                            <div class="local-acciones">
+                                <button class="btn-accion-principal">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    Ver Agenda
+                                </button>
+                                <button class="btn-accion-secundario">
+                                    <i class="fas fa-map-marked-alt"></i>
+                                    Ver Ubicación
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta de Local -->
+                    <div class="tarjeta-gestion">
+                        <div class="tarjeta-header">
+                            <div class="estado activo">Activo</div>
+                            <div class="acciones-rapidas">
+                                <button class="btn-accion" title="Editar">
+                                    <i class="fas fa-edit"></i>
+                                </button>
+                                <button class="btn-accion" title="Más opciones">
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="tarjeta-contenido">
+                            <div class="local-info-principal">
+                                <div class="local-imagen">
+                                    <img src="https://via.placeholder.com/300x200" alt="Local Norte">
+                                </div>
+                                <div class="info-basica">
+                                    <h3>Local Norte</h3>
+                                    <p class="direccion">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Calle Norte 456, Ciudad
+                                    </p>
+                                    <p class="telefono">
+                                        <i class="fas fa-phone"></i>
+                                        (123) 456-7891
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="local-detalles">
+                                <div class="detalle-item">
+                                    <i class="fas fa-user-md"></i>
+                                    <span>15 médicos</span>
+                                </div>
+                                <div class="detalle-item">
+                                    <i class="fas fa-calendar-check"></i>
+                                    <span>85 citas hoy</span>
+                                </div>
+                                <div class="detalle-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span>Lun-Vie: 8:00 - 20:00</span>
+                                </div>
+                            </div>
+                            <div class="local-acciones">
+                                <button class="btn-accion-principal">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    Ver Agenda
+                                </button>
+                                <button class="btn-accion-secundario">
+                                    <i class="fas fa-map-marked-alt"></i>
+                                    Ver Ubicación
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta de Local -->
+                    <div class="tarjeta-gestion">
+                        <div class="tarjeta-header">
+                            <div class="estado inactivo">Inactivo</div>
+                            <div class="acciones-rapidas">
+                                <button class="btn-accion" title="Editar">
+                                    <i class="fas fa-edit"></i>
+                                </button>
+                                <button class="btn-accion" title="Más opciones">
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="tarjeta-contenido">
+                            <div class="local-info-principal">
+                                <div class="local-imagen">
+                                    <img src="https://via.placeholder.com/300x200" alt="Local Sur">
+                                </div>
+                                <div class="info-basica">
+                                    <h3>Local Sur</h3>
+                                    <p class="direccion">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Av. Sur 789, Ciudad
+                                    </p>
+                                    <p class="telefono">
+                                        <i class="fas fa-phone"></i>
+                                        (123) 456-7892
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="local-detalles">
+                                <div class="detalle-item">
+                                    <i class="fas fa-user-md"></i>
+                                    <span>18 médicos</span>
+                                </div>
+                                <div class="detalle-item">
+                                    <i class="fas fa-calendar-check"></i>
+                                    <span>95 citas hoy</span>
+                                </div>
+                                <div class="detalle-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span>Lun-Vie: 8:00 - 20:00</span>
+                                </div>
+                            </div>
+                            <div class="local-acciones">
+                                <button class="btn-accion-principal">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    Ver Agenda
+                                </button>
+                                <button class="btn-accion-secundario">
+                                    <i class="fas fa-map-marked-alt"></i>
+                                    Ver Ubicación
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Paginación -->
+                <div class="paginacion">
+                    <button class="btn-pagina">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="btn-pagina activo">1</button>
+                    <button class="btn-pagina">2</button>
+                    <button class="btn-pagina">3</button>
+                    <button class="btn-pagina">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html> 

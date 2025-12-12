@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Médico - NeoSalud</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="../../styles/doctor.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="contenedor-medico">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-sidebar">
+                <i class="fas fa-heartbeat"></i>
+                <h2>NeoSalud</h2>
+            </div>
+            <nav class="menu-medico">
+                <ul>
+                    <li class="activo">
+                        <a href="dashboard.html"><i class="fas fa-home"></i> Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="agenda.html"><i class="fas fa-calendar-alt"></i> Agenda</a>
+                    </li>
+                    <li>
+                        <a href="pacientes.html"><i class="fas fa-users"></i> Pacientes</a>
+                    </li>
+                    <li>
+                        <a href="horarios.html"><i class="fas fa-clock"></i> Horarios</a>
+                    </li>
+                    <li>
+                        <a href="reportes.html"><i class="fas fa-chart-line"></i> Reportes</a>
+                    </li>
+                    <li>
+                        <a href="notificaciones.html"><i class="fas fa-bell"></i> Notificaciones</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Contenido Principal -->
+        <main class="contenido-principal">
+            <header class="header-medico">
+                <div class="buscador">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Buscar paciente...">
+                </div>
+                <div class="perfil-medico">
+                    <span class="notificaciones">
+                        <i class="fas fa-bell"></i>
+                        <span class="badge">2</span>
+                    </span>
+                    <div class="medico-info">
+                        <img src="https://via.placeholder.com/40" alt="Médico">
+                        <span>Dr. García</span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="dashboard-contenido">
+                <div class="encabezado-dashboard">
+                    <h1>Bienvenido, Dr. García</h1>
+                    <div class="filtros-fecha">
+                        <button class="btn-fecha activo">Hoy</button>
+                        <button class="btn-fecha">Mañana</button>
+                        <button class="btn-fecha">Esta Semana</button>
+                    </div>
+                </div>
+
+                <!-- Resumen del Día -->
+                <div class="grid-metricas">
+                    <div class="tarjeta-metrica">
+                        <div class="icono-metrica">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <div class="info-metrica">
+                            <h3>Citas Hoy</h3>
+                            <p class="valor">8</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta-metrica">
+                        <div class="icono-metrica">
+                            <i class="fas fa-user-clock"></i>
+                        </div>
+                        <div class="info-metrica">
+                            <h3>En Espera</h3>
+                            <p class="valor">2</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta-metrica">
+                        <div class="icono-metrica">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div class="info-metrica">
+                            <h3>Atendidos</h3>
+                            <p class="valor">4</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta-metrica">
+                        <div class="icono-metrica">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-metrica">
+                            <h3>Próxima Cita</h3>
+                            <p class="valor">14:30</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Agenda y Pacientes -->
+                <div class="secciones-gestion">
+                    <!-- Agenda del Día -->
+                    <section class="seccion agenda">
+                        <h2>Agenda del Día</h2>
+                        <div class="lista-citas">
+                            <div class="cita-item">
+                                <div class="hora-cita">09:00</div>
+                                <div class="info-cita">
+                                    <h4>Juan Pérez</h4>
+                                    <p>Consulta General</p>
+                                    <span class="estado atendido">Atendido</span>
+                                </div>
+                            </div>
+                            <div class="cita-item">
+                                <div class="hora-cita">10:30</div>
+                                <div class="info-cita">
+                                    <h4>María López</h4>
+                                    <p>Control Post-operatorio</p>
+                                    <span class="estado en-espera">En Espera</span>
+                                </div>
+                            </div>
+                            <div class="cita-item">
+                                <div class="hora-cita">11:00</div>
+                                <div class="info-cita">
+                                    <h4>Carlos Ruiz</h4>
+                                    <p>Revisión de Resultados</p>
+                                    <span class="estado pendiente">Pendiente</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Pacientes Recientes -->
+                    <section class="seccion pacientes">
+                        <h2>Pacientes Recientes</h2>
+                        <div class="lista-pacientes">
+                            <div class="paciente-item">
+                                <img src="https://via.placeholder.com/40" alt="Paciente">
+                                <div class="info-paciente">
+                                    <h4>Ana Martínez</h4>
+                                    <p>Última visita: 15/03/2024</p>
+                                </div>
+                                <button class="btn-ver">Ver</button>
+                            </div>
+                            <div class="paciente-item">
+                                <img src="https://via.placeholder.com/40" alt="Paciente">
+                                <div class="info-paciente">
+                                    <h4>Roberto Sánchez</h4>
+                                    <p>Última visita: 14/03/2024</p>
+                                </div>
+                                <button class="btn-ver">Ver</button>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html> 

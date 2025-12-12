@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda - NeoSalud</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="../../styles/doctor.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="contenedor-medico">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-sidebar">
+                <i class="fas fa-heartbeat"></i>
+                <h2>NeoSalud</h2>
+            </div>
+            <nav class="menu-medico">
+                <ul>
+                    <li>
+                        <a href="dashboard.html"><i class="fas fa-home"></i> Dashboard</a>
+                    </li>
+                    <li class="activo">
+                        <a href="agenda.html"><i class="fas fa-calendar-alt"></i> Agenda</a>
+                    </li>
+                    <li>
+                        <a href="pacientes.html"><i class="fas fa-users"></i> Pacientes</a>
+                    </li>
+                    <li>
+                        <a href="horarios.html"><i class="fas fa-clock"></i> Horarios</a>
+                    </li>
+                    <li>
+                        <a href="reportes.html"><i class="fas fa-chart-line"></i> Reportes</a>
+                    </li>
+                    <li>
+                        <a href="notificaciones.html"><i class="fas fa-bell"></i> Notificaciones</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Contenido Principal -->
+        <main class="contenido-principal">
+            <header class="header-medico">
+                <div class="buscador">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Buscar paciente...">
+                </div>
+                <div class="perfil-medico">
+                    <span class="notificaciones">
+                        <i class="fas fa-bell"></i>
+                        <span class="badge">2</span>
+                    </span>
+                    <div class="medico-info">
+                        <img src="https://via.placeholder.com/40" alt="Médico">
+                        <span>Dr. García</span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="dashboard-contenido">
+                <div class="encabezado-dashboard">
+                    <h1>Mi Agenda</h1>
+                    <div class="acciones-agenda">
+                        <button class="btn-nueva-cita">
+                            <i class="fas fa-plus"></i>
+                            Nueva Cita
+                        </button>
+                        <button class="btn-exportar">
+                            <i class="fas fa-download"></i>
+                            Exportar Agenda
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Filtros -->
+                <div class="filtros-agenda">
+                    <div class="busqueda-agenda">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Buscar por paciente o motivo...">
+                    </div>
+                    <div class="filtros-estado">
+                        <button class="btn-filtro activo">Todas</button>
+                        <button class="btn-filtro">Confirmadas</button>
+                        <button class="btn-filtro">En Espera</button>
+                        <button class="btn-filtro">Completadas</button>
+                    </div>
+                </div>
+
+                <!-- Vista de Agenda -->
+                <div class="vista-agenda">
+                    <!-- Selector de Mes -->
+                    <div class="mes-selector">
+                        <button class="btn-mes"><i class="fas fa-chevron-left"></i></button>
+                        <h2>Marzo 2024</h2>
+                        <button class="btn-mes"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+
+                    <!-- Calendario y Lista de Citas -->
+                    <div class="grid-agenda">
+                        <!-- Calendario -->
+                        <div class="calendario">
+                            <div class="dias-semana">
+                                <span>Lun</span>
+                                <span>Mar</span>
+                                <span>Mié</span>
+                                <span>Jue</span>
+                                <span>Vie</span>
+                                <span>Sáb</span>
+                                <span>Dom</span>
+                            </div>
+                            <div class="dias-mes">
+                                <!-- Días del mes -->
+                                <div class="dia-mes inactivo">26</div>
+                                <div class="dia-mes inactivo">27</div>
+                                <div class="dia-mes inactivo">28</div>
+                                <div class="dia-mes">1</div>
+                                <div class="dia-mes">2</div>
+                                <div class="dia-mes">3</div>
+                                <div class="dia-mes">4</div>
+                                <!-- ... más días ... -->
+                                <div class="dia-mes activo">18</div>
+                                <div class="dia-mes">19</div>
+                                <div class="dia-mes">20</div>
+                                <!-- ... resto de días ... -->
+                            </div>
+                        </div>
+
+                        <!-- Lista de Citas del Día -->
+                        <div class="lista-citas-dia">
+                            <h3>Citas del 18 de Marzo</h3>
+                            <div class="citas-horario">
+                                <div class="cita-item">
+                                    <div class="hora-cita">09:00</div>
+                                    <div class="info-cita">
+                                        <div class="paciente-cita">
+                                            <img src="https://via.placeholder.com/40" alt="Paciente">
+                                            <div>
+                                                <h4>Juan Pérez</h4>
+                                                <p>Consulta General</p>
+                                            </div>
+                                        </div>
+                                        <div class="estado-cita">
+                                            <span class="estado atendido">Atendido</span>
+                                            <div class="acciones-cita">
+                                                <button class="btn-ver-historial">Ver Historial</button>
+                                                <button class="btn-notas">Agregar Notas</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cita-item">
+                                    <div class="hora-cita">10:30</div>
+                                    <div class="info-cita">
+                                        <div class="paciente-cita">
+                                            <img src="https://via.placeholder.com/40" alt="Paciente">
+                                            <div>
+                                                <h4>María López</h4>
+                                                <p>Control Post-operatorio</p>
+                                            </div>
+                                        </div>
+                                        <div class="estado-cita">
+                                            <span class="estado en-espera">En Espera</span>
+                                            <div class="acciones-cita">
+                                                <button class="btn-atender">Atender</button>
+                                                <button class="btn-cancelar">Cancelar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cita-item">
+                                    <div class="hora-cita">11:00</div>
+                                    <div class="info-cita">
+                                        <div class="paciente-cita">
+                                            <img src="https://via.placeholder.com/40" alt="Paciente">
+                                            <div>
+                                                <h4>Carlos Ruiz</h4>
+                                                <p>Revisión de Resultados</p>
+                                            </div>
+                                        </div>
+                                        <div class="estado-cita">
+                                            <span class="estado pendiente">Pendiente</span>
+                                            <div class="acciones-cita">
+                                                <button class="btn-confirmar">Confirmar</button>
+                                                <button class="btn-cancelar">Cancelar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html> 

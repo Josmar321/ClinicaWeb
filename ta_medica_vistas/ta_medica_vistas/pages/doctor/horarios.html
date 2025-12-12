@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horarios - NeoSalud</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="../../styles/doctor.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="contenedor-medico">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-sidebar">
+                <i class="fas fa-heartbeat"></i>
+                <h2>NeoSalud</h2>
+            </div>
+            <nav class="menu-medico">
+                <ul>
+                    <li>
+                        <a href="dashboard.html"><i class="fas fa-home"></i> Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="agenda.html"><i class="fas fa-calendar-alt"></i> Agenda</a>
+                    </li>
+                    <li>
+                        <a href="pacientes.html"><i class="fas fa-users"></i> Pacientes</a>
+                    </li>
+                    <li class="activo">
+                        <a href="horarios.html"><i class="fas fa-clock"></i> Horarios</a>
+                    </li>
+                    <li>
+                        <a href="reportes.html"><i class="fas fa-chart-line"></i> Reportes</a>
+                    </li>
+                    <li>
+                        <a href="notificaciones.html"><i class="fas fa-bell"></i> Notificaciones</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Contenido Principal -->
+        <main class="contenido-principal">
+            <header class="header-medico">
+                <div class="buscador">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Buscar paciente...">
+                </div>
+                <div class="perfil-medico">
+                    <span class="notificaciones">
+                        <i class="fas fa-bell"></i>
+                        <span class="badge">2</span>
+                    </span>
+                    <div class="medico-info">
+                        <img src="https://via.placeholder.com/40" alt="Médico">
+                        <span>Dr. García</span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="dashboard-contenido">
+                <div class="encabezado-dashboard">
+                    <h1>Mis Horarios</h1>
+                    <div class="acciones-horarios">
+                        <button class="btn-guardar">
+                            <i class="fas fa-save"></i>
+                            Guardar Cambios
+                        </button>
+                        <button class="btn-publicar">
+                            <i class="fas fa-globe"></i>
+                            Publicar Disponibilidad
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Configuración de Horarios -->
+                <div class="configuracion-horarios">
+                    <!-- Horario Regular -->
+                    <section class="seccion-horario">
+                        <h2>Horario Regular</h2>
+                        <div class="grid-horario">
+                            <!-- Lunes -->
+                            <div class="dia-horario">
+                                <h3>Lunes</h3>
+                                <div class="horario-dia">
+                                    <div class="turno">
+                                        <div class="turno-header">
+                                            <span class="estado-turno activo">Activo</span>
+                                            <button class="btn-toggle"><i class="fas fa-toggle-on"></i></button>
+                                        </div>
+                                        <div class="horas-turno">
+                                            <div class="hora-item">
+                                                <label>Inicio</label>
+                                                <input type="time" value="09:00">
+                                            </div>
+                                            <div class="hora-item">
+                                                <label>Fin</label>
+                                                <input type="time" value="17:00">
+                                            </div>
+                                        </div>
+                                        <div class="duracion-cita">
+                                            <label>Duración de Cita</label>
+                                            <select>
+                                                <option>15 minutos</option>
+                                                <option selected>30 minutos</option>
+                                                <option>45 minutos</option>
+                                                <option>1 hora</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Martes -->
+                            <div class="dia-horario">
+                                <h3>Martes</h3>
+                                <div class="horario-dia">
+                                    <div class="turno">
+                                        <div class="turno-header">
+                                            <span class="estado-turno activo">Activo</span>
+                                            <button class="btn-toggle"><i class="fas fa-toggle-on"></i></button>
+                                        </div>
+                                        <div class="horas-turno">
+                                            <div class="hora-item">
+                                                <label>Inicio</label>
+                                                <input type="time" value="09:00">
+                                            </div>
+                                            <div class="hora-item">
+                                                <label>Fin</label>
+                                                <input type="time" value="17:00">
+                                            </div>
+                                        </div>
+                                        <div class="duracion-cita">
+                                            <label>Duración de Cita</label>
+                                            <select>
+                                                <option>15 minutos</option>
+                                                <option selected>30 minutos</option>
+                                                <option>45 minutos</option>
+                                                <option>1 hora</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Miércoles -->
+                            <div class="dia-horario">
+                                <h3>Miércoles</h3>
+                                <div class="horario-dia">
+                                    <div class="turno">
+                                        <div class="turno-header">
+                                            <span class="estado-turno inactivo">Inactivo</span>
+                                            <button class="btn-toggle"><i class="fas fa-toggle-off"></i></button>
+                                        </div>
+                                        <div class="horas-turno deshabilitado">
+                                            <div class="hora-item">
+                                                <label>Inicio</label>
+                                                <input type="time" value="09:00" disabled>
+                                            </div>
+                                            <div class="hora-item">
+                                                <label>Fin</label>
+                                                <input type="time" value="17:00" disabled>
+                                            </div>
+                                        </div>
+                                        <div class="duracion-cita deshabilitado">
+                                            <label>Duración de Cita</label>
+                                            <select disabled>
+                                                <option>15 minutos</option>
+                                                <option selected>30 minutos</option>
+                                                <option>45 minutos</option>
+                                                <option>1 hora</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Jueves -->
+                            <div class="dia-horario">
+                                <h3>Jueves</h3>
+                                <div class="horario-dia">
+                                    <div class="turno">
+                                        <div class="turno-header">
+                                            <span class="estado-turno activo">Activo</span>
+                                            <button class="btn-toggle"><i class="fas fa-toggle-on"></i></button>
+                                        </div>
+                                        <div class="horas-turno">
+                                            <div class="hora-item">
+                                                <label>Inicio</label>
+                                                <input type="time" value="09:00">
+                                            </div>
+                                            <div class="hora-item">
+                                                <label>Fin</label>
+                                                <input type="time" value="17:00">
+                                            </div>
+                                        </div>
+                                        <div class="duracion-cita">
+                                            <label>Duración de Cita</label>
+                                            <select>
+                                                <option>15 minutos</option>
+                                                <option selected>30 minutos</option>
+                                                <option>45 minutos</option>
+                                                <option>1 hora</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Viernes -->
+                            <div class="dia-horario">
+                                <h3>Viernes</h3>
+                                <div class="horario-dia">
+                                    <div class="turno">
+                                        <div class="turno-header">
+                                            <span class="estado-turno activo">Activo</span>
+                                            <button class="btn-toggle"><i class="fas fa-toggle-on"></i></button>
+                                        </div>
+                                        <div class="horas-turno">
+                                            <div class="hora-item">
+                                                <label>Inicio</label>
+                                                <input type="time" value="09:00">
+                                            </div>
+                                            <div class="hora-item">
+                                                <label>Fin</label>
+                                                <input type="time" value="17:00">
+                                            </div>
+                                        </div>
+                                        <div class="duracion-cita">
+                                            <label>Duración de Cita</label>
+                                            <select>
+                                                <option>15 minutos</option>
+                                                <option selected>30 minutos</option>
+                                                <option>45 minutos</option>
+                                                <option>1 hora</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Excepciones -->
+                    <section class="seccion-excepciones">
+                        <h2>Excepciones</h2>
+                        <div class="lista-excepciones">
+                            <div class="excepcion-item">
+                                <div class="fecha-excepcion">
+                                    <i class="fas fa-calendar"></i>
+                                    <span>25 de Marzo, 2024</span>
+                                </div>
+                                <div class="motivo-excepcion">
+                                    <i class="fas fa-info-circle"></i>
+                                    <span>Día Festivo - No hay atención</span>
+                                </div>
+                                <button class="btn-eliminar"><i class="fas fa-trash"></i></button>
+                            </div>
+                            <div class="excepcion-item">
+                                <div class="fecha-excepcion">
+                                    <i class="fas fa-calendar"></i>
+                                    <span>28 de Marzo, 2024</span>
+                                </div>
+                                <div class="motivo-excepcion">
+                                    <i class="fas fa-clock"></i>
+                                    <span>Horario Especial: 10:00 - 14:00</span>
+                                </div>
+                                <button class="btn-eliminar"><i class="fas fa-trash"></i></button>
+                            </div>
+                        </div>
+                        <button class="btn-agregar-excepcion">
+                            <i class="fas fa-plus"></i>
+                            Agregar Excepción
+                        </button>
+                    </section>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html> 

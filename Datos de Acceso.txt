@@ -1,0 +1,11 @@
+Admin
+usuario: adminprueba1
+contraseña: pruebaadmin1
+
+Doctor
+usuario: admindoctor1
+contraseña: pruebadoctor1
+
+Paciente
+usuario: adminpaciente1
+contraseña: pacienteprueba1

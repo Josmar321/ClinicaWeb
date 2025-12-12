@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://services.pucp.edu.pe" targetNamespace="http://services.pucp.edu.pe" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="eliminarEmpresa" type="tns:eliminarEmpresa" />
+  <xs:element name="eliminarEmpresaResponse" type="tns:eliminarEmpresaResponse" />
+  <xs:element name="insertarEmpresa" type="tns:insertarEmpresa" />
+  <xs:element name="insertarEmpresaResponse" type="tns:insertarEmpresaResponse" />
+  <xs:element name="listarEmpresa" type="tns:listarEmpresa" />
+  <xs:element name="listarEmpresaResponse" type="tns:listarEmpresaResponse" />
+  <xs:element name="modificarEmpresa" type="tns:modificarEmpresa" />
+  <xs:element name="modificarEmpresaResponse" type="tns:modificarEmpresaResponse" />
+  <xs:complexType name="insertarEmpresa">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="empresa" type="tns:empresa" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="empresa">
+    <xs:sequence>
+      <xs:element name="activo" type="xs:boolean" />
+      <xs:element name="idEmpresa" type="xs:int" />
+      <xs:element minOccurs="0" name="linkFacebook" type="xs:string" />
+      <xs:element minOccurs="0" name="linkInstagram" type="xs:string" />
+      <xs:element minOccurs="0" name="logo" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="razonSocial" type="xs:string" />
+      <xs:element minOccurs="0" name="ruc" type="xs:string" />
+      <xs:element minOccurs="0" name="telefonoDeContacto" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="insertarEmpresaResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarEmpresa">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="listarEmpresaResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:empresa" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="modificarEmpresa">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="diagnostico" type="tns:empresa" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="modificarEmpresaResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="eliminarEmpresa">
+    <xs:sequence>
+      <xs:element name="idEmpresa" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="eliminarEmpresaResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

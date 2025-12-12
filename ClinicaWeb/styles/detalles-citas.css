@@ -1,0 +1,293 @@
+﻿/* detalle-citas.css - Estilos para la página de detalle de citas */
+
+/* Contenedor principal */
+.detalle-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--espaciado-md);
+}
+
+/* Tarjeta principal */
+.detalle-card {
+    background-color: var(--color-blanco);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+}
+
+/* Encabezado */
+.detalle-header {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+    padding: var(--espaciado-md);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+    .detalle-header h2 {
+        margin: 0;
+        font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+    }
+
+/* Información del paciente */
+.paciente-info {
+    display: flex;
+    align-items: center;
+    padding: var(--espaciado-md);
+    background-color: var(--color-fondo-claro);
+    border-bottom: 1px solid var(--color-borde);
+}
+
+.paciente-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin-right: var(--espaciado-md);
+}
+
+.paciente-datos h3 {
+    margin: 0 0 var(--espaciado-xs) 0;
+    color: var(--color-texto);
+}
+
+.paciente-datos p {
+    margin: 0;
+    color: var(--color-texto-claro);
+}
+
+/* Listado de citas */
+.citas-listado {
+    padding: var(--espaciado-md);
+}
+
+    .citas-listado h4 {
+        color: var(--color-texto);
+        margin-bottom: var(--espaciado-md);
+        display: flex;
+        align-items: center;
+    }
+
+/* Items de cita */
+.cita-item {
+    display: flex;
+    border: 1px solid var(--color-borde);
+    border-radius: var(--border-radius);
+    margin-bottom: var(--espaciado-sm);
+    transition: var(--transition);
+    overflow: hidden;
+}
+
+    .cita-item:hover {
+        box-shadow: var(--shadow-sm);
+        transform: translateY(-2px);
+    }
+
+/* Estados de citas */
+.cita-pendiente {
+    border-left: 4px solid var(--color-pendiente);
+}
+
+.cita-realizada {
+    border-left: 4px solid var(--color-completada);
+}
+
+.cita-cancelada {
+    border-left: 4px solid var(--color-cancelada);
+}
+
+.cita-fecha {
+    background-color: var(--color-fondo-claro);
+    padding: var(--espaciado-sm);
+    min-width: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cita-dia {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--color-texto);
+    line-height: 1;
+}
+
+.cita-mes {
+    font-size: 0.875rem;
+    color: var(--color-texto-claro);
+    text-transform: uppercase;
+    margin: 0.25rem 0;
+}
+
+.cita-hora {
+    font-size: 0.875rem;
+    color: var(--color-principal);
+    font-weight: 500;
+}
+
+.cita-info {
+    flex: 1;
+    padding: var(--espaciado-sm);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cita-detalle {
+    flex: 1;
+    min-width: 200px;
+}
+
+    .cita-detalle h5 {
+        margin: 0 0 var(--espaciado-xs) 0;
+        color: var(--color-texto);
+    }
+
+.estado-cita {
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.estado-pendiente {
+    background-color: var(--color-pendiente);
+    color: var(--color-blanco);
+}
+
+.estado-realizada {
+    background-color: var(--color-completada);
+    color: var(--color-blanco);
+}
+
+.estado-cancelada {
+    background-color: var(--color-cancelada);
+    color: var(--color-blanco);
+}
+
+.cita-acciones {
+    padding: var(--espaciado-sm) var(--espaciado-md);
+    text-align: right;
+}
+
+/* Botones */
+.btn-gestionar {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+    border: none;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    transition: var(--transition);
+    font-size: 0.875rem;
+}
+
+    .btn-gestionar:hover {
+        background-color: var(--color-acento);
+        transform: translateY(-1px);
+    }
+
+.btn-volver {
+    padding: 0.5rem 1.5rem;
+    background-color: var(--color-texto-claro);
+    color: var(--color-blanco);
+    border: none;
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+}
+
+    .btn-volver:hover {
+        background-color: var(--color-texto);
+    }
+
+/* Mensajes */
+.mensaje-error {
+    background-color: #fff1f0;
+    color: var(--color-cancelada);
+    padding: var(--espaciado-sm) var(--espaciado-md);
+    border-radius: var(--border-radius);
+    margin: var(--espaciado-md);
+    display: flex;
+    align-items: center;
+}
+
+.mensaje-vacio {
+    text-align: center;
+    padding: var(--espaciado-lg);
+    color: var(--color-texto-claro);
+    background-color: var(--color-fondo-claro);
+    border-radius: var(--border-radius);
+}
+
+    .mensaje-vacio i {
+        margin-bottom: var(--espaciado-sm);
+        color: var(--color-texto-claro);
+    }
+
+/* Pie de página */
+.detalle-footer {
+    padding: var(--espaciado-md);
+    border-top: 1px solid var(--color-borde);
+    text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .cita-info {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--espaciado-sm);
+    }
+
+    .cita-acciones {
+        width: 100%;
+    }
+
+    .btn-gestionar {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .paciente-info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .paciente-avatar {
+        margin-right: 0;
+        margin-bottom: var(--espaciado-sm);
+    }
+
+    .cita-item {
+        flex-direction: column;
+    }
+
+    .cita-fecha {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: var(--espaciado-sm) var(--espaciado-md);
+    }
+
+    .cita-dia, .cita-mes, .cita-hora {
+        display: inline-block;
+    }
+
+    .cita-mes {
+        margin: 0 var(--espaciado-sm);
+    }
+}

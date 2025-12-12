@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - NeoSalud</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="../../styles/admin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="contenedor-admin">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-sidebar">
+                <i class="fas fa-heartbeat"></i>
+                <h2>NeoSalud</h2>
+            </div>
+            <nav class="menu-admin">
+                <ul>
+                    <li class="activo">
+                        <a href="dashboard.html"><i class="fas fa-home"></i> Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="usuarios.html"><i class="fas fa-users"></i> Usuarios</a>
+                    </li>
+                    <li>
+                        <a href="medicos.html"><i class="fas fa-user-md"></i> Médicos</a>
+                    </li>
+                    <li>
+                        <a href="especialidades.html"><i class="fas fa-stethoscope"></i> Especialidades</a>
+                    </li>
+                    <li>
+                        <a href="locales.html"><i class="fas fa-hospital"></i> Locales</a>
+                    </li>
+                    <li>
+                        <a href="reportes.html"><i class="fas fa-chart-bar"></i> Reportes</a>
+                    </li>
+                    <li>
+                        <a href="configuracion.html"><i class="fas fa-cog"></i> Configuración</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Contenido Principal -->
+        <main class="contenido-principal">
+            <header class="header-admin">
+                <div class="buscador">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Buscar...">
+                </div>
+                <div class="perfil-admin">
+                    <span class="notificaciones">
+                        <i class="fas fa-bell"></i>
+                        <span class="badge">3</span>
+                    </span>
+                    <div class="admin-info">
+                        <img src="https://via.placeholder.com/40" alt="Admin">
+                        <span>Admin</span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="dashboard-contenido">
+                <!-- Métricas Principales -->
+                <div class="grid-metricas">
+                    <div class="tarjeta-metrica">
+                        <div class="icono-metrica">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <div class="info-metrica">
+                            <h3>Citas Hoy</h3>
+                            <div class="valor">24</div>
+                            <div class="tendencia positiva">
+                                <i class="fas fa-arrow-up"></i> 12% vs ayer
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tarjeta-metrica">
+                        <div class="icono-metrica">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-metrica">
+                            <h3>En Espera</h3>
+                            <div class="valor">8</div>
+                            <div class="tendencia negativa">
+                                <i class="fas fa-arrow-up"></i> 3% vs ayer
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tarjeta-metrica">
+                        <div class="icono-metrica">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div class="info-metrica">
+                            <h3>Atendidos</h3>
+                            <div class="valor">16</div>
+                            <div class="tendencia positiva">
+                                <i class="fas fa-arrow-up"></i> 8% vs ayer
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tarjeta-metrica">
+                        <div class="icono-metrica">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <div class="info-metrica">
+                            <h3>Próxima Cita</h3>
+                            <div class="valor">14:30</div>
+                            <div class="tendencia">
+                                Dr. García - Cardiología
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Secciones de Gestión -->
+                <div class="secciones-gestion">
+                    <!-- Últimas Citas -->
+                    <div class="seccion">
+                        <div class="seccion-header">
+                            <h2>Últimas Citas</h2>
+                            <div class="acciones-gestion">
+                                <button class="btn-nuevo">
+                                    <i class="fas fa-plus"></i> Nueva Cita
+                                </button>
+                                <button class="btn-filtro">
+                                    <i class="fas fa-filter"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="seccion-contenido">
+                            <div class="lista-citas">
+                                <div class="cita-item">
+                                    <div class="fecha-cita">
+                                        <span class="dia">15</span>
+                                        <span class="mes">Mar</span>
+                                        <span class="hora">14:30</span>
+                                    </div>
+                                    <div class="info-cita">
+                                        <div class="paciente-info">
+                                            <h4>Juan Pérez</h4>
+                                            <p>Consulta General</p>
+                                            <div class="medico-info">
+                                                <i class="fas fa-user-md"></i>
+                                                <span>Dr. García</span>
+                                            </div>
+                                        </div>
+                                        <div class="estado-cita">
+                                            <span class="estado pendiente">Pendiente</span>
+                                            <div class="acciones-cita">
+                                                <button class="btn-accion" title="Confirmar">
+                                                    <i class="fas fa-check"></i>
+                                                </button>
+                                                <button class="btn-accion" title="Cancelar">
+                                                    <i class="fas fa-times"></i>
+                                                </button>
+                                                <button class="btn-accion" title="Ver Detalles">
+                                                    <i class="fas fa-eye"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cita-item">
+                                    <div class="fecha-cita">
+                                        <span class="dia">15</span>
+                                        <span class="mes">Mar</span>
+                                        <span class="hora">15:00</span>
+                                    </div>
+                                    <div class="info-cita">
+                                        <div class="paciente-info">
+                                            <h4>María López</h4>
+                                            <p>Control Rutina</p>
+                                            <div class="medico-info">
+                                                <i class="fas fa-user-md"></i>
+                                                <span>Dra. Martínez</span>
+                                            </div>
+                                        </div>
+                                        <div class="estado-cita">
+                                            <span class="estado confirmada">Confirmada</span>
+                                            <div class="acciones-cita">
+                                                <button class="btn-accion" title="Ver Detalles">
+                                                    <i class="fas fa-eye"></i>
+                                                </button>
+                                                <button class="btn-accion" title="Cancelar">
+                                                    <i class="fas fa-times"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cita-item">
+                                    <div class="fecha-cita">
+                                        <span class="dia">15</span>
+                                        <span class="mes">Mar</span>
+                                        <span class="hora">15:30</span>
+                                    </div>
+                                    <div class="info-cita">
+                                        <div class="paciente-info">
+                                            <h4>Carlos Ruiz</h4>
+                                            <p>Revisión</p>
+                                            <div class="medico-info">
+                                                <i class="fas fa-user-md"></i>
+                                                <span>Dr. Sánchez</span>
+                                            </div>
+                                        </div>
+                                        <div class="estado-cita">
+                                            <span class="estado completada">Completada</span>
+                                            <div class="acciones-cita">
+                                                <button class="btn-accion" title="Ver Detalles">
+                                                    <i class="fas fa-eye"></i>
+                                                </button>
+                                                <button class="btn-accion" title="Generar Reporte">
+                                                    <i class="fas fa-file-medical"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Horarios Pendientes -->
+                    <div class="seccion">
+                        <div class="seccion-header">
+                            <h2>Horarios Pendientes</h2>
+                            <a href="horarios-pendientes.html" class="btn-nuevo">
+                                <i class="fas fa-clock"></i> Gestionar
+                            </a>
+                        </div>
+                        <div class="seccion-contenido">
+                            <div class="lista-horarios">
+                                <div class="horario-item">
+                                    <div class="info-horario">
+                                        <h4>Dr. García</h4>
+                                        <p>Cardiología</p>
+                                        <span class="estado pendiente">3 horarios por revisar</span>
+                                    </div>
+                                    <a href="horarios-pendientes.html" class="btn-accion" title="Ver Detalles">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+
+                                <div class="horario-item">
+                                    <div class="info-horario">
+                                        <h4>Dra. Martínez</h4>
+                                        <p>Pediatría</p>
+                                        <span class="estado pendiente">2 horarios por revisar</span>
+                                    </div>
+                                    <a href="horarios-pendientes.html" class="btn-accion" title="Ver Detalles">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+
+                                <div class="horario-item">
+                                    <div class="info-horario">
+                                        <h4>Dr. Sánchez</h4>
+                                        <p>Dermatología</p>
+                                        <span class="estado pendiente">1 horario por revisar</span>
+                                    </div>
+                                    <a href="horarios-pendientes.html" class="btn-accion" title="Ver Detalles">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html> 

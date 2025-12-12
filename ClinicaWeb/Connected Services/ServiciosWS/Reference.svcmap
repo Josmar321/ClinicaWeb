@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="153d927c-acc9-4343-8588-06e7e63e28b4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8080/ClinicaPrivadaWS/servicios.disco" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="EmpresaWS.xsd" MetadataType="Schema" ID="995172b8-903d-4d35-85e2-3b337930db3e" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/EmpresaWS?xsd=1" />
+    <MetadataFile FileName="DiagnosticoWS.wsdl" MetadataType="Wsdl" ID="8076b1e3-9af8-4ec3-a6f3-1e7c7213838c" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/DiagnosticoWS?WSDL" />
+    <MetadataFile FileName="TipoDeSangreWS.xsd" MetadataType="Schema" ID="c1472205-7b29-465e-b65e-904dc5745c33" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/TipoDeSangreWS?xsd=1" />
+    <MetadataFile FileName="DepartamentoWS.xsd" MetadataType="Schema" ID="c21467bf-5f3e-4c55-abef-8b70de4e9536" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/DepartamentoWS?xsd=1" />
+    <MetadataFile FileName="LocalWS.wsdl" MetadataType="Wsdl" ID="a89abdd3-ba6a-489e-bf8b-452cb4f15f5e" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/LocalWS?WSDL" />
+    <MetadataFile FileName="CiudadWS.xsd" MetadataType="Schema" ID="f0fe9904-5483-4bde-bfa8-7c0121cebe08" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/CiudadWS?xsd=1" />
+    <MetadataFile FileName="ReportePacienteWS.wsdl" MetadataType="Wsdl" ID="de63e000-8f1a-4b5c-b91c-ac6d58852532" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/ReportePacienteWS?WSDL" />
+    <MetadataFile FileName="ConsultorioWS.wsdl" MetadataType="Wsdl" ID="afe50238-152e-410d-a4aa-18b2e5a519bd" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/ConsultorioWS?WSDL" />
+    <MetadataFile FileName="ReporteMedicoWS1.xsd" MetadataType="Schema" ID="0bb16c6d-0d20-44f1-8b6d-3bc3f96b9a67" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/ReporteMedicoWS?xsd=1" />
+    <MetadataFile FileName="ReporteDiagnosticosWS.xsd" MetadataType="Schema" ID="3825e68b-4c9a-4614-bb03-58d3fcbba88a" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/ReporteDiagnosticosWS?xsd=1" />
+    <MetadataFile FileName="servicios.disco" MetadataType="Disco" ID="d7897ffa-c505-401d-8678-b13c18d296f3" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/servicios.disco" />
+    <MetadataFile FileName="DiagnosticoWS.xsd" MetadataType="Schema" ID="61d10c92-bf4d-44b2-81e5-0c4b8b5f80ff" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/DiagnosticoWS?xsd=1" />
+    <MetadataFile FileName="EspecialidadWS.wsdl" MetadataType="Wsdl" ID="f41015eb-3dfe-4a7a-9cbb-bab130da5e76" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/EspecialidadWS?WSDL" />
+    <MetadataFile FileName="ReporteDiagnosticosWS.wsdl" MetadataType="Wsdl" ID="d82a9d09-50d8-429f-ad11-ceb8f2fdc5e7" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/ReporteDiagnosticosWS?WSDL" />
+    <MetadataFile FileName="ReporteMedicoWS.wsdl" MetadataType="Wsdl" ID="ffbb88dc-7205-4ba8-920b-73f4bb3cd2ac" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/ReporteMedicoWS?WSDL" />
+    <MetadataFile FileName="PersonaWS.xsd" MetadataType="Schema" ID="0c1d5823-fd6b-46b7-9c73-2f92b505155d" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/PersonaWS?xsd=1" />
+    <MetadataFile FileName="PersonaWS.wsdl" MetadataType="Wsdl" ID="8883f1be-03fc-4fd2-bb6b-cb6423c9e75e" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/PersonaWS?WSDL" />
+    <MetadataFile FileName="DisponibilidadWS.wsdl" MetadataType="Wsdl" ID="049eb544-3a33-4264-babb-9d09ba5773ec" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/DisponibilidadWS?WSDL" />
+    <MetadataFile FileName="HistorialClinicoWS.xsd" MetadataType="Schema" ID="45ad779e-b64c-42b1-aa46-bc5190db9e9d" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/HistorialClinicoWS?xsd=1" />
+    <MetadataFile FileName="AdministradorWS.xsd" MetadataType="Schema" ID="bbc76a4e-6c9f-4360-8370-87205a9cdc57" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/AdministradorWS?xsd=1" />
+    <MetadataFile FileName="DepartamentoWS.wsdl" MetadataType="Wsdl" ID="847f0492-a5b8-41b7-b379-376b1f42666f" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/DepartamentoWS?WSDL" />
+    <MetadataFile FileName="MedicoWS.xsd" MetadataType="Schema" ID="7d1fa0e6-74cb-449d-810f-b844f2328aa5" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/MedicoWS?xsd=1" />
+    <MetadataFile FileName="CitaMedicaWS.wsdl" MetadataType="Wsdl" ID="6b0533d4-0421-49e4-97f2-2b4b1de518c1" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/CitaMedicaWS?WSDL" />
+    <MetadataFile FileName="PacienteWS.xsd" MetadataType="Schema" ID="77bfd0b2-90ad-47c5-abc7-6d02afc5b0a5" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/PacienteWS?xsd=1" />
+    <MetadataFile FileName="CitaMedicaWS.xsd" MetadataType="Schema" ID="de1348ef-4835-4d8a-b2c5-c322148029b1" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/CitaMedicaWS?xsd=1" />
+    <MetadataFile FileName="ConsultorioWS.xsd" MetadataType="Schema" ID="3e7b5e78-1624-485c-89f3-7376620e42c8" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/ConsultorioWS?xsd=1" />
+    <MetadataFile FileName="EmpresaWS.wsdl" MetadataType="Wsdl" ID="3c989353-07ba-4b01-a8fb-ce8a0a9c0850" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/EmpresaWS?WSDL" />
+    <MetadataFile FileName="AdministradorWS.wsdl" MetadataType="Wsdl" ID="f893351b-30b4-4e85-a13e-1154d8387cc9" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/AdministradorWS?WSDL" />
+    <MetadataFile FileName="EspecialidadWS.xsd" MetadataType="Schema" ID="282a1292-fa26-45bf-b7e2-8d4b28f91818" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/EspecialidadWS?xsd=1" />
+    <MetadataFile FileName="MedicoWS.wsdl" MetadataType="Wsdl" ID="13ac9d51-e065-4940-952e-2bc69bdd0f12" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/MedicoWS?WSDL" />
+    <MetadataFile FileName="HistorialClinicoWS.wsdl" MetadataType="Wsdl" ID="29103016-ac28-4bc7-85c3-df63274d6b8c" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/HistorialClinicoWS?WSDL" />
+    <MetadataFile FileName="CiudadWS.wsdl" MetadataType="Wsdl" ID="fab4d9c6-aaa2-4f87-8af9-854c17f0244b" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/CiudadWS?WSDL" />
+    <MetadataFile FileName="UsuarioWS.xsd" MetadataType="Schema" ID="98717283-5ee2-4d3d-a2c4-4f23a3865914" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/UsuarioWS?xsd=1" />
+    <MetadataFile FileName="TipoDeSangreWS.wsdl" MetadataType="Wsdl" ID="f5c016c0-1094-4795-b33f-254be1f4e798" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/TipoDeSangreWS?WSDL" />
+    <MetadataFile FileName="PacienteWS.wsdl" MetadataType="Wsdl" ID="eab1ae02-b0a5-4134-9a23-c99662d63b23" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/PacienteWS?WSDL" />
+    <MetadataFile FileName="TratamientoWS.wsdl" MetadataType="Wsdl" ID="7fd2bd0b-f524-4ba5-b79f-ab5a4ac5a750" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/TratamientoWS?WSDL" />
+    <MetadataFile FileName="LocalWS.xsd" MetadataType="Schema" ID="a2198c35-b823-45d3-a602-4fef1e159388" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/LocalWS?xsd=1" />
+    <MetadataFile FileName="TratamientoWS.xsd" MetadataType="Schema" ID="b5a547ea-bd8b-40d8-9764-1b541cb028c4" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/TratamientoWS?xsd=1" />
+    <MetadataFile FileName="DisponibilidadWS.xsd" MetadataType="Schema" ID="72daf1ad-98b3-4606-baa9-414c495b5f4f" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/DisponibilidadWS?xsd=1" />
+    <MetadataFile FileName="UsuarioWS.wsdl" MetadataType="Wsdl" ID="c0523093-3079-4eb6-8557-f4d481a84797" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/UsuarioWS?WSDL" />
+    <MetadataFile FileName="ReportePacienteWS.xsd" MetadataType="Schema" ID="0d9a9068-fc74-4b85-b92d-fef3c08fc366" SourceId="1" SourceUrl="http://localhost:8080/ClinicaPrivadaWS/ReportePacienteWS?xsd=1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

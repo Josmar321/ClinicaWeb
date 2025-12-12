@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://services.pucp.edu.pe" targetNamespace="http://services.pucp.edu.pe" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="generarReportePacientes" type="tns:generarReportePacientes" />
+  <xs:element name="generarReportePacientesResponse" type="tns:generarReportePacientesResponse" />
+  <xs:complexType name="generarReportePacientes">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="codigoPaciente" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="generarReportePacientesResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" nillable="true" type="xs:base64Binary" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
